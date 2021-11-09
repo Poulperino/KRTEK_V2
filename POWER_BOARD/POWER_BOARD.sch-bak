@@ -318,7 +318,7 @@ U 1 1 617961E0
 P 1250 1650
 F 0 "D1" V 1289 1532 50  0000 R CNN
 F 1 "RED" V 1198 1532 50  0000 R CNN
-F 2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" H 1250 1650 50  0001 C CNN
+F 2 "KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm" H 1250 1650 50  0001 C CNN
 F 3 "~" H 1250 1650 50  0001 C CNN
 	1    1250 1650
 	0    -1   -1   0   
@@ -361,7 +361,7 @@ U 1 1 6179E3D0
 P 1800 1650
 F 0 "D2" V 1839 1532 50  0000 R CNN
 F 1 "YELLOW" V 1748 1532 50  0000 R CNN
-F 2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" H 1800 1650 50  0001 C CNN
+F 2 "KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm" H 1800 1650 50  0001 C CNN
 F 3 "~" H 1800 1650 50  0001 C CNN
 	1    1800 1650
 	0    -1   -1   0   
@@ -402,7 +402,7 @@ U 1 1 617A26DA
 P 2300 1650
 F 0 "D3" V 2339 1532 50  0000 R CNN
 F 1 "YELLOW" V 2248 1532 50  0000 R CNN
-F 2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" H 2300 1650 50  0001 C CNN
+F 2 "KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm" H 2300 1650 50  0001 C CNN
 F 3 "~" H 2300 1650 50  0001 C CNN
 	1    2300 1650
 	0    -1   -1   0   
@@ -432,7 +432,7 @@ U 1 1 617A4E03
 P 2900 1650
 F 0 "D4" V 2939 1532 50  0000 R CNN
 F 1 "GREEN" V 2848 1532 50  0000 R CNN
-F 2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" H 2900 1650 50  0001 C CNN
+F 2 "KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm" H 2900 1650 50  0001 C CNN
 F 3 "~" H 2900 1650 50  0001 C CNN
 	1    2900 1650
 	0    -1   -1   0   
@@ -473,7 +473,7 @@ U 1 1 617A9A0E
 P 3400 1650
 F 0 "D5" V 3439 1532 50  0000 R CNN
 F 1 "GREEN" V 3348 1532 50  0000 R CNN
-F 2 "digikey-footprints:LED_2-SMD_No_Lead_1.7x0.8mm" H 3400 1650 50  0001 C CNN
+F 2 "KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm" H 3400 1650 50  0001 C CNN
 F 3 "~" H 3400 1650 50  0001 C CNN
 	1    3400 1650
 	0    -1   -1   0   
@@ -499,7 +499,7 @@ U 1 1 617AB743
 P 8900 3000
 F 0 "IC1" H 9400 3265 50  0000 C CNN
 F 1 "ILQ30" H 9400 3174 50  0000 C CNN
-F 2 "SamacSys_Parts:DIP762W60P254L2030H430Q16N" H 9750 3100 50  0001 L CNN
+F 2 "KRTEK_V2:DIP762W60P254L2030H430Q16N" H 9750 3100 50  0001 L CNN
 F 3 "http://www.vishay.com/docs/83621/ild55.pdf" H 9750 3000 50  0001 L CNN
 F 4 "Vishay ILQ30 Optocoupler" H 9750 2900 50  0001 L CNN "Description"
 F 5 "4.3" H 9750 2800 50  0001 L CNN "Height"
@@ -548,7 +548,7 @@ U 1 1 617C7795
 P 1550 3200
 F 0 "Q1" H 1980 3346 50  0000 L CNN
 F 1 "IRL40B212" H 1980 3255 50  0000 L CNN
-F 2 "SamacSys_Parts:TO254P483X1016X1994-3P" H 2000 3150 50  0001 L CNN
+F 2 "KRTEK_V2:TO254P483X1016X1994-3P" H 2000 3150 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d" H 2000 3050 50  0001 L CNN
 F 4 "MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl" H 2000 2950 50  0001 L CNN "Description"
 F 5 "4.83" H 2000 2850 50  0001 L CNN "Height"
@@ -565,7 +565,7 @@ U 1 1 617C82A6
 P 1550 4800
 F 0 "Q2" H 1980 4946 50  0000 L CNN
 F 1 "IRL40B212" H 1980 4855 50  0000 L CNN
-F 2 "SamacSys_Parts:TO254P483X1016X1994-3P" H 2000 4750 50  0001 L CNN
+F 2 "KRTEK_V2:TO254P483X1016X1994-3P" H 2000 4750 50  0001 L CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d" H 2000 4650 50  0001 L CNN
 F 4 "MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl" H 2000 4550 50  0001 L CNN "Description"
 F 5 "4.83" H 2000 4450 50  0001 L CNN "Height"
@@ -751,7 +751,7 @@ U 1 1 618806F9
 P 8800 4550
 F 0 "PS1" H 9450 4815 50  0000 C CNN
 F 1 "RPM5.0-6.0" H 9450 4724 50  0000 C CNN
-F 2 "SamacSys_Parts:RPM5060" H 9950 4650 50  0001 L CNN
+F 2 "KRTEK_V2:RPM5060" H 9950 4650 50  0001 L CNN
 F 3 "https://componentsearchengine.com/Datasheets/2/RPM5.0-6.0.pdf" H 9950 4550 50  0001 L CNN
 F 4 "RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable" H 9950 4450 50  0001 L CNN "Description"
 F 5 "4" H 9950 4350 50  0001 L CNN "Height"
@@ -1117,7 +1117,7 @@ U 1 1 6180C32E
 P 1700 6900
 F 0 "J2" H 1992 6535 50  0000 C CNN
 F 1 "ARM" H 1992 6626 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 2350 7000 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 2350 7000 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 2350 6900 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 2350 6800 50  0001 L CNN "Description"
 F 5 "" H 2350 6700 50  0001 L CNN "Height"
@@ -1134,7 +1134,7 @@ U 1 1 61818052
 P 3600 7000
 F 0 "J3" H 3892 6635 50  0000 C CNN
 F 1 "Pyro1" H 3892 6726 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 4250 7100 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 4250 7100 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 4250 7000 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 4250 6900 50  0001 L CNN "Description"
 F 5 "" H 4250 6800 50  0001 L CNN "Height"
@@ -1151,7 +1151,7 @@ U 1 1 61819935
 P 3600 7500
 F 0 "J4" H 3892 7135 50  0000 C CNN
 F 1 "Pyro2" H 3892 7226 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 4250 7600 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 4250 7600 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 4250 7500 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 4250 7400 50  0001 L CNN "Description"
 F 5 "" H 4250 7300 50  0001 L CNN "Height"
@@ -1168,7 +1168,7 @@ U 1 1 6181A58B
 P 5500 6500
 F 0 "J5" H 5792 6135 50  0000 C CNN
 F 1 "Servo2" H 5792 6226 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 6150 6600 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 6150 6600 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 6150 6500 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 6150 6400 50  0001 L CNN "Description"
 F 5 "" H 6150 6300 50  0001 L CNN "Height"
@@ -1185,7 +1185,7 @@ U 1 1 6181BBBC
 P 5500 7000
 F 0 "J6" H 5792 6635 50  0000 C CNN
 F 1 "Servo1" H 5792 6726 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 6150 7100 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 6150 7100 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 6150 7000 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 6150 6900 50  0001 L CNN "Description"
 F 5 "" H 6150 6800 50  0001 L CNN "Height"
@@ -1202,7 +1202,7 @@ U 1 1 6181C790
 P 5500 7500
 F 0 "J7" H 5792 7135 50  0000 C CNN
 F 1 "Batt" H 5792 7226 50  0000 C CNN
-F 2 "SamacSys_Parts:282834-2_1" H 6150 7600 50  0001 L CNN
+F 2 "KRTEK_V2:282834-2_1" H 6150 7600 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 6150 7500 50  0001 L CNN
 F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 6150 7400 50  0001 L CNN "Description"
 F 5 "" H 6150 7300 50  0001 L CNN "Height"
@@ -1219,7 +1219,7 @@ U 1 1 6181D2A8
 P 1600 6050
 F 0 "J1" H 2228 5896 50  0000 L CNN
 F 1 "EXTIN" H 2228 5805 50  0000 L CNN
-F 2 "SamacSys_Parts:2828345" H 2250 6150 50  0001 L CNN
+F 2 "KRTEK_V2:2828345" H 2250 6150 50  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5" H 2250 6050 50  0001 L CNN
 F 4 "Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton" H 2250 5950 50  0001 L CNN "Description"
 F 5 "10.3" H 2250 5850 50  0001 L CNN "Height"
