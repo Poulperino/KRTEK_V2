@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name KRTEK_V2)(type KiCad)(uri ${KIPRJMOD}/KRTEK_V2.pretty)(options "")(descr ""))
+  (lib (name POWER_BOARD)(type KiCad)(uri ${KIPRJMOD}/POWER_BOARD.pretty)(options "")(descr ""))
+)
