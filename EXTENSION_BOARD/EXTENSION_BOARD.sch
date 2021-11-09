@@ -30,7 +30,7 @@ U 1 1 6180F71D
 P 8850 1300
 F 0 "LS1" H 9478 1296 50  0000 L CNN
 F 1 "Buzzer" H 9478 1205 50  0000 L CNN
-F 2 "KRTEK_V2:PS1240P02BT" H 9500 1400 50  0001 L CNN
+F 2 "KRTEK_V2:CST931AP" H 9500 1400 50  0001 L CNN
 F 3 "https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf" H 9500 1300 50  0001 L CNN
 F 4 "Piezoelectric Buzzers, Sound Pressure Level=60dB min, Freq.=4000Hz nom" H 9500 1200 50  0001 L CNN "Description"
 F 5 "" H 9500 1100 50  0001 L CNN "Height"
