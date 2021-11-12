@@ -150,4 +150,6 @@
   (lib (name dk_TVS-Mixed-Technology)(type Legacy)(uri "C:/Users/willi/Desktop/ERT SE/PDS KRTEK V2/PCB/Components/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_TVS-Mixed-Technology.lib")(options "")(descr ""))
   (lib (name dk_USB-DVI-HDMI-Connectors)(type Legacy)(uri "C:/Users/willi/Desktop/ERT SE/PDS KRTEK V2/PCB/Components/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_USB-DVI-HDMI-Connectors.lib")(options "")(descr ""))
   (lib (name POWER_BOARD-rescue)(type Legacy)(uri ${KIPRJMOD}/POWER_BOARD-rescue.lib)(options "")(descr ""))
+  (lib (name KRTEK_V2)(type Legacy)(uri ${KIPRJMOD}/KRTEK_V2.lib)(options "")(descr ""))
+  (lib (name EXTENSION)(type Legacy)(uri C:/Users/willi/Documents/GitHub/KRTEK_V2/EXTENSION_BOARD/EXTENSION.lib)(options "")(descr ""))
 )

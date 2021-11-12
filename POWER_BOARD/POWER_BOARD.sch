@@ -719,32 +719,28 @@ Text GLabel 3650 7400 2    50   Input ~ 0
 PYROTERMIN
 Text GLabel 3650 7500 2    50   Input ~ 0
 PYRO2
-Wire Wire Line
-	5600 7400 5500 7400
 $Comp
 L power:VCC #PWR016
 U 1 1 61877079
-P 5600 7400
-F 0 "#PWR016" H 5600 7250 50  0001 C CNN
-F 1 "VCC" H 5615 7573 50  0000 C CNN
-F 2 "" H 5600 7400 50  0001 C CNN
-F 3 "" H 5600 7400 50  0001 C CNN
-	1    5600 7400
+P 5550 7400
+F 0 "#PWR016" H 5550 7250 50  0001 C CNN
+F 1 "VCC" H 5565 7573 50  0000 C CNN
+F 2 "" H 5550 7400 50  0001 C CNN
+F 3 "" H 5550 7400 50  0001 C CNN
+	1    5550 7400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 61877E3F
-P 5800 7500
-F 0 "#PWR017" H 5800 7250 50  0001 C CNN
-F 1 "GND" H 5805 7327 50  0000 C CNN
-F 2 "" H 5800 7500 50  0001 C CNN
-F 3 "" H 5800 7500 50  0001 C CNN
-	1    5800 7500
-	0    -1   -1   0   
+P 5500 7550
+F 0 "#PWR017" H 5500 7300 50  0001 C CNN
+F 1 "GND" H 5505 7377 50  0000 C CNN
+F 2 "" H 5500 7550 50  0001 C CNN
+F 3 "" H 5500 7550 50  0001 C CNN
+	1    5500 7550
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5500 7500 5800 7500
 $Comp
 L SamacSys_Parts:RPM5.0-6.0 PS1
 U 1 1 618806F9
@@ -1230,4 +1226,45 @@ F 9 "282834-5" H 2250 5450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    1600 6050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5500 7500 5500 7550
+Wire Wire Line
+	5550 7400 5500 7400
+$Comp
+L EXTENSION:505567-0571 J8
+U 1 1 61909209
+P 2950 6050
+F 0 "J8" H 3350 6315 50  0000 C CNN
+F 1 "EXTIN" H 3350 6224 50  0000 C CNN
+F 2 "EXTENSION:5055670571" H 3600 6150 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5055670571_sd.pdf" H 3600 6050 50  0001 L CNN
+F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 5 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 3600 5950 50  0001 L CNN "Description"
+F 5 "3" H 3600 5850 50  0001 L CNN "Height"
+F 6 "538-505567-0571" H 3600 5750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0571?qs=gt1LBUVyoHnJxHrzoS78pw%3D%3D" H 3600 5650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 3600 5550 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0571" H 3600 5450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2950 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 6050 0    50   Input ~ 0
+PYRO1IN
+Text GLabel 2900 6150 0    50   Input ~ 0
+PYRO2IN
+Text GLabel 2900 6250 0    50   Input ~ 0
+BUZZ1IN
+Text GLabel 2900 6350 0    50   Input ~ 0
+BUZZ2IN
+Text GLabel 2900 6450 0    50   Input ~ 0
+GNDIN
+Wire Wire Line
+	2900 6450 2950 6450
+Wire Wire Line
+	2900 6350 2950 6350
+Wire Wire Line
+	2900 6250 2950 6250
+Wire Wire Line
+	2900 6150 2950 6150
+Wire Wire Line
+	2900 6050 2950 6050
 $EndSCHEMATC
