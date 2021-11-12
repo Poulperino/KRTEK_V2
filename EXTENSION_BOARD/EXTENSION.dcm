@@ -1,3 +1,28 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 505567-0281
+D Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 2P BLK GLD
+F https://www.molex.com/pdm_docs/sd/5055670281_sd.pdf
+$ENDCMP
+#
+$CMP 505567-0571
+D Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 5 Way, 1 Row, Right Angle PCB Header, Surface Mount
+F https://www.molex.com/pdm_docs/sd/5055670571_sd.pdf
+$ENDCMP
+#
+$CMP 505567-0671
+D Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount
+F https://componentsearchengine.com/Datasheets/1/505567-0671.pdf
+$ENDCMP
+#
+$CMP 74AHCV541ABQX
+D 74AHCV541A - Octal buffer/line driver; 3-state@en-us
+F https://assets.nexperia.com/documents/data-sheet/74AHCV541A.pdf
+$ENDCMP
+#
+$CMP MAX22700EASA+
+D Ultra-High CMTI Isolated Gate Drivers
+F https://datasheets.maximintegrated.com/en/ds/MAX22700D-MAX22702E.pdf
+$ENDCMP
+#
 #End Doc Library
