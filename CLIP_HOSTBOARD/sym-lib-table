@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name CLIP_BOARD)(type Legacy)(uri ${KIPRJMOD}/CLIP_BOARD.lib)(options "")(descr ""))
+  (lib (name KRTEK_V2)(type Legacy)(uri C:/Users/willi/Documents/GitHub/KRTEK_V2/POWER_BOARD/KRTEK_V2.lib)(options "")(descr ""))
+)
