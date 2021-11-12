@@ -1,3 +1,68 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 282834-2
+D TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf
+$ENDCMP
+#
+$CMP 282834-4
+D ic
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=282834&DocType=Customer+Drawing&DocLang=English&PartCntxt=282834-4&DocFormat=pdf
+$ENDCMP
+#
+$CMP 282834-5
+D Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5
+$ENDCMP
+#
+$CMP 65600001009
+D Littelfuse 10A Base Mount Fuse Holder for mini Fuse, 250V
+F http://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP ICM-20608-G
+D IMUs - Inertial Measurement Units 6-axis MotionTracking device that combines a 3-axis gyroscope, a 3-axis accelerometer in a small, 3 mm x 3 mm x 0.75 mm (16-pin LGA) package
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-31/602351.pdf
+$ENDCMP
+#
+$CMP ILQ30
+D Vishay ILQ30 Optocoupler
+F http://www.vishay.com/docs/83621/ild55.pdf
+$ENDCMP
+#
+$CMP IRL40B212
+D MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl
+F https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d
+$ENDCMP
+#
+$CMP MS561101BA03-50
+D Sensor Pressure 1.2bar Barometric SMD MS561101BA03-50, Barometric Pressure Sensor, 1200mbar 0  3.6 V Output, 8-Pin QFN
+F http://www.te.com/usa-en/search.html?q=ms5611&source=header
+$ENDCMP
+#
+$CMP NE555DR
+D Single Precision Timer
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP PS1240P02BT
+D Piezoelectric Buzzers, Sound Pressure Level=70dB min, Freq.=4000Hz nom
+F https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf
+$ENDCMP
+#
+$CMP PS1240P02CT3
+D Piezoelectric Buzzers, Sound Pressure Level=60dB min, Freq.=4000Hz nom
+F https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf
+$ENDCMP
+#
+$CMP RPM5.0-6.0
+D RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable
+F https://componentsearchengine.com/Datasheets/2/RPM5.0-6.0.pdf
+$ENDCMP
+#
+$CMP TB003-500-P04BE
+D Fixed Terminal Blocks Terminal block, screw type, 5.00 , horizontal, 4 poles, CUI Blue, Philip's head screw, PCB mount
+F https://www.cuidevices.com/product/resource/tb003-500.pdf
+$ENDCMP
+#
 #End Doc Library

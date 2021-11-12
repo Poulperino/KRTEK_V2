@@ -20,6 +20,11 @@ D Littelfuse 10A Base Mount Fuse Holder for mini Fuse, 250V
 F http://m.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_656_datasheet.pdf.pdf
 $ENDCMP
 #
+$CMP 74AC11244DWR
+D Octal Buffers/Drivers
+F http://www.ti.com/lit/gpn/74AC11244
+$ENDCMP
+#
 $CMP ICM-20608-G
 D IMUs - Inertial Measurement Units 6-axis MotionTracking device that combines a 3-axis gyroscope, a 3-axis accelerometer in a small, 3 mm x 3 mm x 0.75 mm (16-pin LGA) package
 F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-31/602351.pdf

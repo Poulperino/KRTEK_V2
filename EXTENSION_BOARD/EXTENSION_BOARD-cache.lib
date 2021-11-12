@@ -59,6 +59,133 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# EXTENSION_505567-0281
+#
+DEF EXTENSION_505567-0281 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "EXTENSION_505567-0281" 750 200 50 H V L CNN
+F2 "5055670281" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/5055670281_sd.pdf" 750 0 50 H I L CNN
+F4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 2P BLK GLD" 750 -100 50 H I L CNN "Description"
+F5 "3.9" 750 -200 50 H I L CNN "Height"
+F6 "538-505567-0281" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0281?qs=gt1LBUVyoHmc7tfcrPDm5A%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0281" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X MP1 MP1 900 0 200 L 50 50 0 0 P
+X MP2 MP2 900 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EXTENSION_505567-0571
+#
+DEF EXTENSION_505567-0571 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "EXTENSION_505567-0571" 650 200 50 H V L CNN
+F2 "5055670571" 650 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/5055670571_sd.pdf" 650 0 50 H I L CNN
+F4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 5 Way, 1 Row, Right Angle PCB Header, Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "3" 650 -200 50 H I L CNN "Height"
+F6 "538-505567-0571" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0571?qs=gt1LBUVyoHnJxHrzoS78pw%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0571" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 800 0 200 L 50 50 0 0 P
+X 7 7 800 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EXTENSION_505567-0671
+#
+DEF EXTENSION_505567-0671 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "EXTENSION_505567-0671" 750 200 50 H V L CNN
+F2 "5055670671" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" 750 0 50 H I L CNN
+F4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" 750 -100 50 H I L CNN "Description"
+F5 "4.2" 750 -200 50 H I L CNN "Height"
+F6 "538-505567-0671" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Molex" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "505567-0671" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X MP1 MP1 900 0 200 L 50 50 0 0 P
+X MP2 MP2 900 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EXTENSION_74AHCV541ABQX
+#
+DEF EXTENSION_74AHCV541ABQX IC 0 30 Y Y 1 F N
+F0 "IC" 850 600 50 H V L CNN
+F1 "EXTENSION_74AHCV541ABQX" 850 500 50 H V L CNN
+F2 "QFN50P250X450X100-21N-D" 850 400 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74AHCV541A.pdf" 850 300 50 H I L CNN
+F4 "74AHCV541A - Octal buffer/line driver; 3-state@en-us" 850 200 50 H I L CNN "Description"
+F5 "1" 850 100 50 H I L CNN "Height"
+F6 "771-74AHCV541ABQX" 850 0 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AHCV541ABQX?qs=u4fy%2FsgLU9NvubNAe0EVkQ%3D%3D" 850 -100 50 H I L CNN "Mouser Price/Stock"
+F8 "Nexperia" 850 -200 50 H I L CNN "Manufacturer_Name"
+F9 "74AHCV541ABQX" 850 -300 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 400 800 400 800 -1100 200 -1100 200 400 N
+X ~OE1 1 400 600 200 D 50 50 0 0 P
+X GND 10 400 -1300 200 U 50 50 0 0 P
+X Y7 11 500 -1300 200 U 50 50 0 0 P
+X Y6 12 1000 -700 200 L 50 50 0 0 P
+X Y5 13 1000 -600 200 L 50 50 0 0 P
+X Y4 14 1000 -500 200 L 50 50 0 0 P
+X Y3 15 1000 -400 200 L 50 50 0 0 P
+X Y2 16 1000 -300 200 L 50 50 0 0 P
+X Y1 17 1000 -200 200 L 50 50 0 0 P
+X Y0 18 1000 -100 200 L 50 50 0 0 P
+X ~OE2 19 1000 0 200 L 50 50 0 0 P
+X A0 2 0 0 200 R 50 50 0 0 P
+X VCC 20 600 600 200 D 50 50 0 0 P
+X NC 21 500 600 200 D 50 50 0 0 N
+X A1 3 0 -100 200 R 50 50 0 0 P
+X A2 4 0 -200 200 R 50 50 0 0 P
+X A3 5 0 -300 200 R 50 50 0 0 P
+X A4 6 0 -400 200 R 50 50 0 0 P
+X A5 7 0 -500 200 R 50 50 0 0 P
+X A6 8 0 -600 200 R 50 50 0 0 P
+X A7 9 0 -700 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# EXTENSION_BSH105,235
+#
+DEF EXTENSION_BSH105,235 U 0 40 Y Y 1 F N
+F0 "U" -100 200 50 H V C CNN
+F1 "EXTENSION_BSH105,235" 0 -200 50 H V C CNN
+F2 "" -100 0 50 H I C CNN
+F3 "" -100 0 50 H I C CNN
+DRAW
+S -150 150 200 -150 0 1 0 N
+X Gate 1 -250 100 100 R 50 50 1 1 I
+X Source 2 -250 -100 100 R 50 50 1 1 O
+X Drain 3 300 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # EXTENSION_COM-15809
 #
 DEF EXTENSION_COM-15809 U 0 40 Y Y 1 F N
@@ -79,45 +206,29 @@ X VCC 8 300 150 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_282834-2
+# EXTENSION_MAX22700EASA+
 #
-DEF SamacSys_Parts_282834-2 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_282834-2" 650 200 50 H V L CNN
-F2 "282834-2_1" 650 100 50 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" 650 0 50 H I L CNN
-F4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" 650 -100 50 H I L CNN "Description"
-F5 "571-282834-2" 650 -300 50 H I L CNN "Mouser Part Number"
-F6 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F7 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
-F8 "282834-2" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DEF EXTENSION_MAX22700EASA+ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "EXTENSION_MAX22700EASA+" 950 200 50 H V L CNN
+F2 "SOIC127P600X175-8N" 950 100 50 H I L CNN
+F3 "https://datasheets.maximintegrated.com/en/ds/MAX22700D-MAX22702E.pdf" 950 0 50 H I L CNN
+F4 "Ultra-High CMTI Isolated Gate Drivers" 950 -100 50 H I L CNN "Description"
+F5 "1.75" 950 -200 50 H I L CNN "Height"
+F6 "700-MAX22700EASA+" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Maxim-Integrated/MAX22700EASA%2b?qs=xZ%2FP%252Ba9zWqaKrAcsqoXM0g%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Maxim Integrated" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MAX22700EASA+" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
 DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 P
-X 2 2 0 -100 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# SamacSys_Parts_282834-5
-#
-DEF SamacSys_Parts_282834-5 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_282834-5" 650 200 50 H V L CNN
-F2 "2828345" 650 100 50 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5" 650 0 50 H I L CNN
-F4 "Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton" 650 -100 50 H I L CNN "Description"
-F5 "10.3" 650 -200 50 H I L CNN "Height"
-F6 "571-282834-5" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-5?qs=A%252Bip%252BNCYi6PY1Kyrkp4b4w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
-F9 "282834-5" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 P
-X 2 2 0 -100 200 R 50 50 0 0 P
-X 3 3 0 -200 200 R 50 50 0 0 P
-X 4 4 0 -300 200 R 50 50 0 0 P
-X 5 5 0 -400 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X VDDA 1 0 0 200 R 50 50 0 0 P
+X IN 2 0 -100 200 R 50 50 0 0 P
+X ~EN 3 0 -200 200 R 50 50 0 0 P
+X GNDA 4 0 -300 200 R 50 50 0 0 P
+X VDDB 5 1100 -300 200 L 50 50 0 0 P
+X OUT 6 1100 -200 200 L 50 50 0 0 P
+X GNDB 7 1100 -100 200 L 50 50 0 0 P
+X VSSB 8 1100 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
