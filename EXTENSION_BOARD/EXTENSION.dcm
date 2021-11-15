@@ -20,6 +20,11 @@ D 74AHCV541A - Octal buffer/line driver; 3-state@en-us
 F https://assets.nexperia.com/documents/data-sheet/74AHCV541A.pdf
 $ENDCMP
 #
+$CMP H3LIS331DLTR
+D Accelerometers Low Pwr Hi G 3-axis Digital Acceleromtr
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00053090.pdf
+$ENDCMP
+#
 $CMP MAX22700EASA+
 D Ultra-High CMTI Isolated Gate Drivers
 F https://datasheets.maximintegrated.com/en/ds/MAX22700D-MAX22702E.pdf

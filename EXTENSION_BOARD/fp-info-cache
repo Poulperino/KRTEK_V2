@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-0
-=======
-20051709682728892
+20069713577393532
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50718,6 +50715,62 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 10
 10
 EXTENSION
+5055670281
+505567-0281-2
+Connector
+0
+4
+4
+EXTENSION
+5055670571
+505567-0571
+Connector
+0
+7
+7
+EXTENSION
+5055670671
+505567-0671-1
+Connector
+0
+8
+8
+EXTENSION
+LIS3DHTR
+LGA-16_2
+Accelerometer
+0
+16
+16
+EXTENSION
+QFN50P250X450X100-21N-D
+DHVQFN20 (SOT764-1)
+Integrated Circuit
+0
+21
+21
+EXTENSION
+SOIC127P600X175-8N
+S8MS+23
+Integrated Circuit
+0
+8
+8
+EXTENSION
+SOIC127P1030X265-24N
+DW (R-PDSO-G24)
+Integrated Circuit
+0
+24
+24
+EXTENSION
+TSOT-23
+3-pin TSOT23 package, http://www.analog.com.tw/pdf/All_In_One.pdf
+TSOT-23
+0
+3
+3
+EXTENSION
 Teensy1.0
 11
 
@@ -50780,6 +50833,13 @@ Teensy40
 0
 44
 44
+EXTENSION
+Teensy40_EXT
+
+
+0
+34
+34
 EXTENSION
 Teensy40_SMT
 
@@ -55309,6 +55369,13 @@ SOIC-8_W5.6mm
 0
 8
 8
+KRTEK_V2
+SOIC127P1030X265-24N
+DW (R-PDSO-G24)
+Integrated Circuit
+0
+24
+24
 KRTEK_V2
 TB003500P04BE
 TB003-500-P04BE
@@ -76625,6 +76692,13 @@ Integrated Circuit
 16
 16
 SamacSys_Parts
+LIS3DHTR
+LGA-16_2
+Accelerometer
+0
+16
+16
+SamacSys_Parts
 MS561101BA03-50
 MS561101BA03-50
 Integrated Circuit
@@ -86676,4 +86750,3 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
->>>>>>> Stashed changes

@@ -518,13 +518,13 @@ Text GLabel 8700 3200 0    50   Input ~ 0
 GNDIN
 Text GLabel 8700 3300 0    50   Input ~ 0
 PYRO2IN
-Text GLabel 10050 3400 2    50   Input ~ 0
+Text GLabel 10050 3700 2    50   Input ~ 0
 BUZZ1IN
 Text GLabel 10050 3500 2    50   Input ~ 0
 GNDIN
 Text GLabel 10050 3600 2    50   Input ~ 0
 GNDIN
-Text GLabel 10050 3700 2    50   Input ~ 0
+Text GLabel 10050 3400 2    50   Input ~ 0
 BUZZ2IN
 Wire Wire Line
 	8700 3000 8900 3000
@@ -678,13 +678,13 @@ F 3 "" H 9850 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1300 9850 1300
-Text GLabel 1550 6050 0    50   Input ~ 0
-PYRO1IN
 Text GLabel 1550 6150 0    50   Input ~ 0
+PYRO1IN
+Text GLabel 1550 6050 0    50   Input ~ 0
 PYRO2IN
-Text GLabel 1550 6250 0    50   Input ~ 0
-BUZZ1IN
 Text GLabel 1550 6350 0    50   Input ~ 0
+BUZZ1IN
+Text GLabel 1550 6250 0    50   Input ~ 0
 BUZZ2IN
 Text GLabel 1550 6450 0    50   Input ~ 0
 GNDIN
