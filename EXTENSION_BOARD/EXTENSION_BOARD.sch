@@ -456,23 +456,6 @@ Wire Wire Line
 Wire Wire Line
 	3500 3450 3300 3450
 $Comp
-L EXTENSION:505567-0571 J4
-U 1 1 618D57EA
-P 10200 5100
-F 0 "J4" H 10600 5365 50  0000 C CNN
-F 1 "EXTOUT" H 10600 5274 50  0000 C CNN
-F 2 "EXTENSION:5055670571" H 10850 5200 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5055670571_sd.pdf" H 10850 5100 50  0001 L CNN
-F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 5 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 10850 5000 50  0001 L CNN "Description"
-F 5 "3" H 10850 4900 50  0001 L CNN "Height"
-F 6 "538-505567-0571" H 10850 4800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0571?qs=gt1LBUVyoHnJxHrzoS78pw%3D%3D" H 10850 4700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 10850 4600 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0571" H 10850 4500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    10200 5100
-	1    0    0    -1  
-$EndComp
-$Comp
 L EXTENSION:505567-0281 J3
 U 1 1 618D6489
 P 10100 6200
@@ -498,66 +481,39 @@ Wire Wire Line
 Wire Wire Line
 	10050 6300 10100 6300
 $Comp
-L power:GND #PWR034
-U 1 1 618E3668
-P 10200 5050
-F 0 "#PWR034" H 10200 4800 50  0001 C CNN
-F 1 "GND" V 10205 4922 50  0000 R CNN
-F 2 "" H 10200 5050 50  0001 C CNN
-F 3 "" H 10200 5050 50  0001 C CNN
-	1    10200 5050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10150 5500 10200 5500
-Text GLabel 10150 5300 0    50   Input ~ 0
-BUZZ2
-Wire Wire Line
-	10150 5400 10200 5400
-Text GLabel 10150 5200 0    50   Input ~ 0
-BUZZ1
-Text GLabel 10150 5500 0    50   Input ~ 0
-OPYRO2
-Text GLabel 10150 5400 0    50   Input ~ 0
-OPYRO1
-Wire Wire Line
-	10150 5200 10200 5200
-Wire Wire Line
-	10150 5300 10200 5300
-$Comp
 L EXTENSION:505567-0281 J2
 U 1 1 61906994
-P 9950 4500
-F 0 "J2" H 10400 4765 50  0000 C CNN
-F 1 "BATT" H 10400 4674 50  0000 C CNN
-F 2 "EXTENSION:5055670281" H 10700 4600 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5055670281_sd.pdf" H 10700 4500 50  0001 L CNN
-F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 2P BLK GLD" H 10700 4400 50  0001 L CNN "Description"
-F 5 "3.9" H 10700 4300 50  0001 L CNN "Height"
-F 6 "538-505567-0281" H 10700 4200 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0281?qs=gt1LBUVyoHmc7tfcrPDm5A%3D%3D" H 10700 4100 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 10700 4000 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0281" H 10700 3900 50  0001 L CNN "Manufacturer_Part_Number"
-	1    9950 4500
+P 10000 4200
+F 0 "J2" H 10450 4465 50  0000 C CNN
+F 1 "BATT" H 10450 4374 50  0000 C CNN
+F 2 "EXTENSION:5055670281" H 10750 4300 50  0001 L CNN
+F 3 "https://www.molex.com/pdm_docs/sd/5055670281_sd.pdf" H 10750 4200 50  0001 L CNN
+F 4 "Headers & Wire Housings MicroLockPlus 1.25MM RA HDR SR 2P BLK GLD" H 10750 4100 50  0001 L CNN "Description"
+F 5 "3.9" H 10750 4000 50  0001 L CNN "Height"
+F 6 "538-505567-0281" H 10750 3900 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0281?qs=gt1LBUVyoHmc7tfcrPDm5A%3D%3D" H 10750 3800 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 10750 3700 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0281" H 10750 3600 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10000 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9750 4600 0    50   Input ~ 0
+Text GLabel 9800 4300 0    50   Input ~ 0
 VIN
 Wire Wire Line
-	9900 4500 9950 4500
+	9950 4200 10000 4200
 $Comp
 L power:GND #PWR033
 U 1 1 6190D110
-P 9900 4500
-F 0 "#PWR033" H 9900 4250 50  0001 C CNN
-F 1 "GND" V 9905 4372 50  0000 R CNN
-F 2 "" H 9900 4500 50  0001 C CNN
-F 3 "" H 9900 4500 50  0001 C CNN
-	1    9900 4500
+P 9950 4200
+F 0 "#PWR033" H 9950 3950 50  0001 C CNN
+F 1 "GND" V 9955 4072 50  0000 R CNN
+F 2 "" H 9950 4200 50  0001 C CNN
+F 3 "" H 9950 4200 50  0001 C CNN
+	1    9950 4200
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	9750 4600 9950 4600
+	9800 4300 10000 4300
 $Comp
 L EXTENSION:74AHCV541ABQX IC1
 U 1 1 6192FFA5
@@ -590,8 +546,6 @@ Wire Wire Line
 	7950 2800 7950 2750
 Text GLabel 8600 2050 2    50   Input ~ 0
 YLED1
-Wire Wire Line
-	8600 1550 8550 1550
 Text GLabel 8600 1950 2    50   Input ~ 0
 YLED2
 Text GLabel 8600 1850 2    50   Input ~ 0
@@ -599,15 +553,9 @@ GLED1
 Text GLabel 8600 1750 2    50   Input ~ 0
 GLED2
 Wire Wire Line
-	8600 1650 8550 1650
-Wire Wire Line
 	8600 1750 8550 1750
 Wire Wire Line
 	8600 1850 8550 1850
-Text GLabel 8600 1650 2    50   Input ~ 0
-BUZZ1
-Text GLabel 8600 1550 2    50   Input ~ 0
-BUZZ2
 Wire Wire Line
 	8600 2050 8550 2050
 Wire Wire Line
@@ -622,10 +570,6 @@ Text GLabel 7500 1650 0    50   Input ~ 0
 TGLED2
 Wire Wire Line
 	8150 800  8150 850 
-Text GLabel 7500 1550 0    50   Input ~ 0
-TBUZZ1
-Text GLabel 7500 1450 0    50   Input ~ 0
-TBUZZ2
 Wire Wire Line
 	7500 1950 7550 1950
 Wire Wire Line
@@ -634,10 +578,6 @@ Wire Wire Line
 	7500 1750 7550 1750
 Wire Wire Line
 	7500 1650 7550 1650
-Wire Wire Line
-	7500 1550 7550 1550
-Wire Wire Line
-	7500 1450 7550 1450
 $Comp
 L power:GND #PWR022
 U 1 1 619A46FC
@@ -741,8 +681,6 @@ Text GLabel 1050 3050 0    50   Input ~ 0
 PWM2
 Wire Wire Line
 	1050 3050 1100 3050
-Wire Wire Line
-	10200 5050 10200 5100
 Wire Wire Line
 	8350 5250 8700 5250
 Wire Wire Line
@@ -1199,9 +1137,7 @@ $EndComp
 Text GLabel 10000 800  0    50   Input ~ 0
 VIN
 Text GLabel 1050 1650 0    50   Input ~ 0
-TBUZZ1
-Text GLabel 1050 1750 0    50   Input ~ 0
-TBUZZ2
+PDECT1
 Wire Wire Line
 	1050 1750 1100 1750
 Wire Wire Line
@@ -1382,4 +1318,81 @@ Text Notes 5150 3600 0    50   ~ 0
 Buzzer + BJT
 Text Notes 5400 6750 0    50   ~ 0
 Accelerometer\nCommunicate I2C\n
+Text GLabel 7450 1450 0    50   Input ~ 0
+INFREE3
+Wire Wire Line
+	7450 1450 7550 1450
+Text GLabel 7450 1550 0    50   Input ~ 0
+INFREE4
+Wire Wire Line
+	7450 1550 7550 1550
+Text GLabel 8650 1550 2    50   Input ~ 0
+OUTFREE3
+Text GLabel 8650 1650 2    50   Input ~ 0
+OUTFREE4
+Wire Wire Line
+	8550 1550 8650 1550
+Wire Wire Line
+	8550 1650 8650 1650
+Text GLabel 1050 1750 0    50   Input ~ 0
+PDECT2
+$Comp
+L EXTENSION:505567-0671 J5
+U 1 1 61AEC270
+P 10250 4850
+F 0 "J5" H 10700 5115 50  0000 C CNN
+F 1 "EXTOUT" H 10700 5024 50  0000 C CNN
+F 2 "EXTENSION:5055670671" H 11000 4950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" H 11000 4850 50  0001 L CNN
+F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 11000 4750 50  0001 L CNN "Description"
+F 5 "4.2" H 11000 4650 50  0001 L CNN "Height"
+F 6 "538-505567-0671" H 11000 4550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" H 11000 4450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 11000 4350 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0671" H 11000 4250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    10250 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 61AED9C0
+P 9900 4950
+F 0 "#PWR0101" H 9900 4700 50  0001 C CNN
+F 1 "GND" V 9905 4822 50  0000 R CNN
+F 2 "" H 9900 4950 50  0001 C CNN
+F 3 "" H 9900 4950 50  0001 C CNN
+	1    9900 4950
+	0    1    1    0   
+$EndComp
+Text GLabel 10200 5050 0    50   Input ~ 0
+PDECT1
+Text GLabel 10200 5150 0    50   Input ~ 0
+PDECT2
+Text GLabel 10200 5250 0    50   Input ~ 0
+OPYRO1
+Text GLabel 10200 5350 0    50   Input ~ 0
+OPYRO2
+Wire Wire Line
+	10200 5250 10250 5250
+Wire Wire Line
+	10200 5150 10250 5150
+Wire Wire Line
+	10200 5050 10250 5050
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 61B21118
+P 10200 4850
+F 0 "#PWR0102" H 10200 4700 50  0001 C CNN
+F 1 "+3.3V" V 10215 4978 50  0000 L CNN
+F 2 "" H 10200 4850 50  0001 C CNN
+F 3 "" H 10200 4850 50  0001 C CNN
+	1    10200 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 4950 10250 4950
+Wire Wire Line
+	10200 4850 10250 4850
+Wire Wire Line
+	10200 5350 10250 5350
 $EndSCHEMATC

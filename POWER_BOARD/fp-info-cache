@@ -1,4 +1,4 @@
-20061530199448783
+20064803698330698
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50736,6 +50736,13 @@ Connector
 8
 8
 EXTENSION
+LIS3DHTR
+LGA-16_2
+Accelerometer
+0
+16
+16
+EXTENSION
 QFN50P250X450X100-21N-D
 DHVQFN20 (SOT764-1)
 Integrated Circuit
@@ -76660,6 +76667,13 @@ SamacSys_Parts
 DIP762W60P254L2030H430Q16N
 DIP-16_1
 Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+LIS3DHTR
+LGA-16_2
+Accelerometer
 0
 16
 16
