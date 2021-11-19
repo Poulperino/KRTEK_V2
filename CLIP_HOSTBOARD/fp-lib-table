@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name CLIP_BOARD)(type KiCad)(uri ${KIPRJMOD}/CLIP_BOARD.pretty)(options "")(descr ""))
+  (lib (name EXTENSION)(type KiCad)(uri C:/Users/willi/Documents/GitHub/KRTEK_V2/EXTENSION_BOARD/EXTENSION.pretty)(options "")(descr ""))
+)

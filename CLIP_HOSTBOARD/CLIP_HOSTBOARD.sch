@@ -87,41 +87,120 @@ Wire Wire Line
 Text GLabel 3100 2900 0    50   Input ~ 0
 PYRO2
 $Comp
-L EXTENSION:505567-0671 J?
-U 1 1 618E76AE
-P 5950 2750
-F 0 "J?" H 6400 3015 50  0000 C CNN
-F 1 "505567-0671" H 6400 2924 50  0000 C CNN
-F 2 "5055670671" H 6700 2850 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" H 6700 2750 50  0001 L CNN
-F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 6700 2650 50  0001 L CNN "Description"
-F 5 "4.2" H 6700 2550 50  0001 L CNN "Height"
-F 6 "538-505567-0671" H 6700 2450 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" H 6700 2350 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 6700 2250 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0671" H 6700 2150 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5950 2750
+L socket:Socket S1
+U 1 1 61AA19B4
+P 5700 4150
+F 0 "S1" H 5675 4265 50  0000 C CNN
+F 1 "Socket" H 5675 4174 50  0000 C CNN
+F 2 "Socket:DIP_Socket-20_W4.3_W5.08_W7.62_W10.16_W10.9_3M_220-3342-00-0602J" H 5700 4150 50  0001 C CNN
+F 3 "" H 5700 4150 50  0001 C CNN
+	1    5700 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 5900 2750 0    50   Input ~ 0
-PYRO1
+Text GLabel 6300 4300 2    50   Input ~ 0
+HTX
 Wire Wire Line
-	5900 2750 5950 2750
-Text GLabel 5900 2850 0    50   Input ~ 0
+	6300 4300 6250 4300
+Text GLabel 6300 4400 2    50   Input ~ 0
+HRX
+Wire Wire Line
+	6300 4400 6250 4400
+Text GLabel 6300 4500 2    50   Input ~ 0
+HPYRO1
+Wire Wire Line
+	6300 4500 6250 4500
+Text GLabel 6300 4600 2    50   Input ~ 0
+HPYRO2
+Wire Wire Line
+	6300 4600 6250 4600
+$Comp
+L EXTENSION:505567-0671 J1
+U 1 1 61AA4A98
+P 6750 2850
+F 0 "J1" H 7200 3115 50  0000 C CNN
+F 1 "505567-0671" H 7200 3024 50  0000 C CNN
+F 2 "EXTENSION:5055670671" H 7500 2950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" H 7500 2850 50  0001 L CNN
+F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 7500 2750 50  0001 L CNN "Description"
+F 5 "4.2" H 7500 2650 50  0001 L CNN "Height"
+F 6 "538-505567-0671" H 7500 2550 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" H 7500 2450 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 7500 2350 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0671" H 7500 2250 50  0001 L CNN "Manufacturer_Part_Number"
+	1    6750 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 2850 0    50   Input ~ 0
+HRX
+Wire Wire Line
+	6700 2850 6750 2850
+Text GLabel 6700 2950 0    50   Input ~ 0
+HTX
+Wire Wire Line
+	6700 2950 6750 2950
+Text GLabel 6700 3250 0    50   Input ~ 0
+PYRO1
+Text GLabel 6700 3350 0    50   Input ~ 0
 PYRO2
 Wire Wire Line
-	5900 2850 5950 2850
+	6700 3250 6750 3250
 $Comp
-L power:GND #PWR?
-U 1 1 618EA110
-P 5950 3300
-F 0 "#PWR?" H 5950 3050 50  0001 C CNN
-F 1 "GND" H 5955 3127 50  0000 C CNN
-F 2 "" H 5950 3300 50  0001 C CNN
-F 3 "" H 5950 3300 50  0001 C CNN
-	1    5950 3300
-	1    0    0    -1  
+L power:GND #PWR0104
+U 1 1 61AA68F7
+P 5050 5200
+F 0 "#PWR0104" H 5050 4950 50  0001 C CNN
+F 1 "GND" H 5055 5027 50  0000 C CNN
+F 2 "" H 5050 5200 50  0001 C CNN
+F 3 "" H 5050 5200 50  0001 C CNN
+	1    5050 5200
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5950 3300 5950 3250
+	5050 5200 5100 5200
+$Comp
+L power:GND #PWR0105
+U 1 1 61AA7946
+P 6300 5200
+F 0 "#PWR0105" H 6300 4950 50  0001 C CNN
+F 1 "GND" H 6305 5027 50  0000 C CNN
+F 2 "" H 6300 5200 50  0001 C CNN
+F 3 "" H 6300 5200 50  0001 C CNN
+	1    6300 5200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 5200 6250 5200
+$Comp
+L power:GND #PWR0106
+U 1 1 61AA854D
+P 6400 3150
+F 0 "#PWR0106" H 6400 2900 50  0001 C CNN
+F 1 "GND" H 6405 2977 50  0000 C CNN
+F 2 "" H 6400 3150 50  0001 C CNN
+F 3 "" H 6400 3150 50  0001 C CNN
+	1    6400 3150
+	0    1    1    0   
+$EndComp
+Text GLabel 6300 4700 2    50   Input ~ 0
+HFREE
+Wire Wire Line
+	6300 4700 6250 4700
+Text GLabel 6700 3050 0    50   Input ~ 0
+HFREE
+Wire Wire Line
+	6700 3050 6750 3050
+Text GLabel 6300 5100 2    50   Input ~ 0
+3V3
+Wire Wire Line
+	6300 5100 6250 5100
+Text GLabel 5050 5100 0    50   Input ~ 0
+3V3
+Wire Wire Line
+	5050 5100 5100 5100
+Wire Wire Line
+	6700 3350 6750 3350
+Wire Wire Line
+	6400 3150 6750 3150
+Wire Wire Line
+	3100 2900 3150 2900
 $EndSCHEMATC
