@@ -1307,7 +1307,7 @@ The one used by BPS space.\nNever used flash so hopefully it works :p\n
 Text Notes 600  6950 0    50   ~ 0
 Both Iacoboard and Teensy can fire pyros\nDiodes just to prevent them firing in each other
 Text Notes 9200 5900 0    50   ~ 0
-Les connecteurs Mikro Lock
+Mikro Lock Connectors\n
 Text Notes 10300 2750 0    50   ~ 0
 LEDs debug
 Text Notes 7200 3350 0    50   ~ 0
