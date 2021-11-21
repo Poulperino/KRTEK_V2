@@ -120,29 +120,6 @@ X 2 2 0 -100 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# SamacSys_Parts_282834-5
-#
-DEF SamacSys_Parts_282834-5 J 0 30 Y Y 1 F N
-F0 "J" 650 300 50 H V L CNN
-F1 "SamacSys_Parts_282834-5" 650 200 50 H V L CNN
-F2 "2828345" 650 100 50 H I L CNN
-F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5" 650 0 50 H I L CNN
-F4 "Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton" 650 -100 50 H I L CNN "Description"
-F5 "10.3" 650 -200 50 H I L CNN "Height"
-F6 "571-282834-5" 650 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-5?qs=A%252Bip%252BNCYi6PY1Kyrkp4b4w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "TE Connectivity" 650 -500 50 H I L CNN "Manufacturer_Name"
-F9 "282834-5" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
-X 1 1 0 0 200 R 50 50 0 0 P
-X 2 2 0 -100 200 R 50 50 0 0 P
-X 3 3 0 -200 200 R 50 50 0 0 P
-X 4 4 0 -300 200 R 50 50 0 0 P
-X 5 5 0 -400 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # SamacSys_Parts_ILQ30
 #
 DEF SamacSys_Parts_ILQ30 IC 0 30 Y Y 1 F N

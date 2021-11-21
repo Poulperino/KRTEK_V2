@@ -674,26 +674,6 @@ F 3 "" H 9850 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1300 9850 1300
-Text GLabel 1200 5700 0    50   Input ~ 0
-PYRO1IN
-Text GLabel 1200 5600 0    50   Input ~ 0
-PYRO2IN
-Text GLabel 1200 5900 0    50   Input ~ 0
-BUZZ1IN
-Text GLabel 1200 5800 0    50   Input ~ 0
-BUZZ2IN
-Text GLabel 1200 6000 0    50   Input ~ 0
-GNDIN
-Wire Wire Line
-	1200 5600 1250 5600
-Wire Wire Line
-	1200 5700 1250 5700
-Wire Wire Line
-	1200 5800 1250 5800
-Wire Wire Line
-	1200 5900 1250 5900
-Wire Wire Line
-	1200 6000 1250 6000
 Text GLabel 1900 6700 3    50   Input ~ 0
 PYROTERMIN
 $Comp
@@ -894,31 +874,14 @@ F 3 "" H 8750 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 5550 8750 5550
-Text GLabel 8500 4950 0    50   Input ~ 0
-VINSERVO1
 Text GLabel 8500 5450 0    50   Input ~ 0
 VINSERVO2
-Wire Wire Line
-	8500 4950 8800 4950
 Wire Wire Line
 	8500 5450 8800 5450
 Text GLabel 10350 4650 2    50   Input ~ 0
 VINSERVO2
 Wire Wire Line
 	10350 4650 10100 4650
-$Comp
-L power:VCC #PWR029
-U 1 1 618DFB2E
-P 10150 4750
-F 0 "#PWR029" H 10150 4600 50  0001 C CNN
-F 1 "VCC" H 10165 4923 50  0000 C CNN
-F 2 "" H 10150 4750 50  0001 C CNN
-F 3 "" H 10150 4750 50  0001 C CNN
-	1    10150 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10100 4750 10150 4750
 $Comp
 L Device:R R18
 U 1 1 618E57AB
@@ -946,7 +909,7 @@ $EndComp
 Wire Wire Line
 	10650 5650 10700 5650
 Text GLabel 5200 6450 2    50   Input ~ 0
-VINSERVO1
+VINSERVO2
 $Comp
 L power:GND #PWR015
 U 1 1 61919E9D
@@ -1205,23 +1168,6 @@ F 9 "282834-2" H 5800 6450 50  0001 L CNN "Manufacturer_Part_Number"
 	1    5150 7050
 	-1   0    0    1   
 $EndComp
-$Comp
-L SamacSys_Parts:282834-5 J1
-U 1 1 6181D2A8
-P 1250 5600
-F 0 "J1" H 1878 5446 50  0000 L CNN
-F 1 "EXTIN" H 1878 5355 50  0000 L CNN
-F 2 "KRTEK_V2:2828345" H 1900 5700 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5" H 1900 5600 50  0001 L CNN
-F 4 "Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton" H 1900 5500 50  0001 L CNN "Description"
-F 5 "10.3" H 1900 5400 50  0001 L CNN "Height"
-F 6 "571-282834-5" H 1900 5300 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-5?qs=A%252Bip%252BNCYi6PY1Kyrkp4b4w%3D%3D" H 1900 5200 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 1900 5100 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-5" H 1900 5000 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1250 5600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5150 7050 5150 7100
 Wire Wire Line
@@ -1285,4 +1231,11 @@ Text GLabel 7750 3700 2    50   Input ~ 0
 3V3IN
 Text GLabel 7750 3800 2    50   Input ~ 0
 3V3IN
+NoConn ~ 10100 4750
+Text GLabel 8350 4950 0    50   Input ~ 0
+VINSERVO2
+Wire Wire Line
+	8350 4950 8800 4950
+Text Notes 5250 6300 0    50   ~ 0
+They have the same input as in datasheet\n
 $EndSCHEMATC

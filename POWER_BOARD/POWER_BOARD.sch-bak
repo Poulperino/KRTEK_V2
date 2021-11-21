@@ -674,67 +674,47 @@ F 3 "" H 9850 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9900 1300 9850 1300
-Text GLabel 1150 5200 0    50   Input ~ 0
-PYRO1IN
-Text GLabel 1150 5100 0    50   Input ~ 0
-PYRO2IN
-Text GLabel 1150 5400 0    50   Input ~ 0
-BUZZ1IN
-Text GLabel 1150 5300 0    50   Input ~ 0
-BUZZ2IN
-Text GLabel 1150 5500 0    50   Input ~ 0
-GNDIN
-Wire Wire Line
-	1150 5100 1200 5100
-Wire Wire Line
-	1150 5200 1200 5200
-Wire Wire Line
-	1150 5300 1200 5300
-Wire Wire Line
-	1150 5400 1200 5400
-Wire Wire Line
-	1150 5500 1200 5500
-Text GLabel 1850 6200 3    50   Input ~ 0
+Text GLabel 1900 6700 3    50   Input ~ 0
 PYROTERMIN
 $Comp
 L power:VCC #PWR01
 U 1 1 6182E4C4
-P 1800 6100
-F 0 "#PWR01" H 1800 5950 50  0001 C CNN
-F 1 "VCC" H 1815 6273 50  0000 C CNN
-F 2 "" H 1800 6100 50  0001 C CNN
-F 3 "" H 1800 6100 50  0001 C CNN
-	1    1800 6100
+P 1850 6600
+F 0 "#PWR01" H 1850 6450 50  0001 C CNN
+F 1 "VCC" H 1865 6773 50  0000 C CNN
+F 2 "" H 1850 6600 50  0001 C CNN
+F 3 "" H 1850 6600 50  0001 C CNN
+	1    1850 6600
 	0    1    1    0   
 $EndComp
-Text GLabel 3250 5950 2    50   Input ~ 0
+Text GLabel 3300 6450 2    50   Input ~ 0
 PYROTERMIN
-Text GLabel 3250 6050 2    50   Input ~ 0
+Text GLabel 3300 6550 2    50   Input ~ 0
 PYRO1
-Text GLabel 3250 6450 2    50   Input ~ 0
+Text GLabel 3300 6950 2    50   Input ~ 0
 PYROTERMIN
-Text GLabel 3250 6550 2    50   Input ~ 0
+Text GLabel 3300 7050 2    50   Input ~ 0
 PYRO2
 $Comp
 L power:VCC #PWR016
 U 1 1 61877079
-P 5150 6450
-F 0 "#PWR016" H 5150 6300 50  0001 C CNN
-F 1 "VCC" H 5165 6623 50  0000 C CNN
-F 2 "" H 5150 6450 50  0001 C CNN
-F 3 "" H 5150 6450 50  0001 C CNN
-	1    5150 6450
+P 5200 6950
+F 0 "#PWR016" H 5200 6800 50  0001 C CNN
+F 1 "VCC" H 5215 7123 50  0000 C CNN
+F 2 "" H 5200 6950 50  0001 C CNN
+F 3 "" H 5200 6950 50  0001 C CNN
+	1    5200 6950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 61877E3F
-P 5100 6600
-F 0 "#PWR017" H 5100 6350 50  0001 C CNN
-F 1 "GND" H 5105 6427 50  0000 C CNN
-F 2 "" H 5100 6600 50  0001 C CNN
-F 3 "" H 5100 6600 50  0001 C CNN
-	1    5100 6600
+P 5150 7100
+F 0 "#PWR017" H 5150 6850 50  0001 C CNN
+F 1 "GND" H 5155 6927 50  0000 C CNN
+F 2 "" H 5150 7100 50  0001 C CNN
+F 3 "" H 5150 7100 50  0001 C CNN
+	1    5150 7100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -894,31 +874,14 @@ F 3 "" H 8750 5550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8800 5550 8750 5550
-Text GLabel 8500 4950 0    50   Input ~ 0
-VINSERVO1
 Text GLabel 8500 5450 0    50   Input ~ 0
 VINSERVO2
-Wire Wire Line
-	8500 4950 8800 4950
 Wire Wire Line
 	8500 5450 8800 5450
 Text GLabel 10350 4650 2    50   Input ~ 0
 VINSERVO2
 Wire Wire Line
 	10350 4650 10100 4650
-$Comp
-L power:VCC #PWR029
-U 1 1 618DFB2E
-P 10150 4750
-F 0 "#PWR029" H 10150 4600 50  0001 C CNN
-F 1 "VCC" H 10165 4923 50  0000 C CNN
-F 2 "" H 10150 4750 50  0001 C CNN
-F 3 "" H 10150 4750 50  0001 C CNN
-	1    10150 4750
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10100 4750 10150 4750
 $Comp
 L Device:R R18
 U 1 1 618E57AB
@@ -945,30 +908,30 @@ F 3 "" H 10700 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10650 5650 10700 5650
-Text GLabel 5150 5950 2    50   Input ~ 0
-VINSERVO1
+Text GLabel 5200 6450 2    50   Input ~ 0
+VINSERVO2
 $Comp
 L power:GND #PWR015
 U 1 1 61919E9D
-P 5600 6050
-F 0 "#PWR015" H 5600 5800 50  0001 C CNN
-F 1 "GND" H 5605 5877 50  0000 C CNN
-F 2 "" H 5600 6050 50  0001 C CNN
-F 3 "" H 5600 6050 50  0001 C CNN
-	1    5600 6050
+P 5650 6550
+F 0 "#PWR015" H 5650 6300 50  0001 C CNN
+F 1 "GND" H 5655 6377 50  0000 C CNN
+F 2 "" H 5650 6550 50  0001 C CNN
+F 3 "" H 5650 6550 50  0001 C CNN
+	1    5650 6550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5150 5450 2    50   Input ~ 0
+Text GLabel 5200 5950 2    50   Input ~ 0
 VINSERVO2
 $Comp
 L power:GND #PWR014
 U 1 1 61920D14
-P 5600 5550
-F 0 "#PWR014" H 5600 5300 50  0001 C CNN
-F 1 "GND" H 5605 5377 50  0000 C CNN
-F 2 "" H 5600 5550 50  0001 C CNN
-F 3 "" H 5600 5550 50  0001 C CNN
-	1    5600 5550
+P 5650 6050
+F 0 "#PWR014" H 5650 5800 50  0001 C CNN
+F 1 "GND" H 5655 5877 50  0000 C CNN
+F 2 "" H 5650 6050 50  0001 C CNN
+F 3 "" H 5650 6050 50  0001 C CNN
+	1    5650 6050
 	0    -1   -1   0   
 $EndComp
 Text GLabel 8800 1900 0    50   Input ~ 0
@@ -1028,25 +991,25 @@ Text GLabel 1750 2000 3    50   Input ~ 0
 FUSE1
 NoConn ~ 10100 5250
 Wire Wire Line
-	3250 6050 3200 6050
+	3300 6550 3250 6550
 Wire Wire Line
-	3250 5950 3200 5950
+	3300 6450 3250 6450
 Wire Wire Line
-	3250 6450 3200 6450
+	3300 6950 3250 6950
 Wire Wire Line
-	3250 6550 3200 6550
+	3300 7050 3250 7050
 Wire Wire Line
-	5100 5950 5150 5950
+	5150 6450 5200 6450
 Wire Wire Line
-	5100 6050 5600 6050
+	5150 6550 5650 6550
 Wire Wire Line
-	5100 5550 5600 5550
+	5150 6050 5650 6050
 Wire Wire Line
-	5100 5450 5150 5450
+	5150 5950 5200 5950
 Wire Wire Line
-	1750 6100 1800 6100
+	1800 6600 1850 6600
 Wire Wire Line
-	1850 6200 1750 6200
+	1900 6700 1800 6700
 Text GLabel 4050 3000 2    50   Input ~ 0
 FUSE2
 $Comp
@@ -1106,170 +1069,116 @@ $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J2
 U 1 1 6180C32E
-P 1750 6200
-F 0 "J2" H 2042 5835 50  0000 C CNN
-F 1 "ARM" H 2042 5926 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 2400 6300 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 2400 6200 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 2400 6100 50  0001 L CNN "Description"
-F 5 "" H 2400 6000 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 2400 5900 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 2400 5800 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 2400 5700 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 2400 5600 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1750 6200
+P 1800 6700
+F 0 "J2" H 2092 6335 50  0000 C CNN
+F 1 "ARM" H 2092 6426 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 2450 6800 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 2450 6700 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 2450 6600 50  0001 L CNN "Description"
+F 5 "" H 2450 6500 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 2450 6400 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 2450 6300 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 2450 6200 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 2450 6100 50  0001 L CNN "Manufacturer_Part_Number"
+	1    1800 6700
 	-1   0    0    1   
 $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J3
 U 1 1 61818052
-P 3200 6050
-F 0 "J3" H 3492 5685 50  0000 C CNN
-F 1 "Pyro1" H 3492 5776 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 3850 6150 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 3850 6050 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 3850 5950 50  0001 L CNN "Description"
-F 5 "" H 3850 5850 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 3850 5750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 3850 5650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 3850 5550 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 3850 5450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3200 6050
+P 3250 6550
+F 0 "J3" H 3542 6185 50  0000 C CNN
+F 1 "Pyro1" H 3542 6276 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 3900 6650 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 3900 6550 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 3900 6450 50  0001 L CNN "Description"
+F 5 "" H 3900 6350 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 3900 6250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 3900 6150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 3900 6050 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 3900 5950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3250 6550
 	-1   0    0    1   
 $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J4
 U 1 1 61819935
-P 3200 6550
-F 0 "J4" H 3492 6185 50  0000 C CNN
-F 1 "Pyro2" H 3492 6276 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 3850 6650 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 3850 6550 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 3850 6450 50  0001 L CNN "Description"
-F 5 "" H 3850 6350 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 3850 6250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 3850 6150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 3850 6050 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 3850 5950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    3200 6550
+P 3250 7050
+F 0 "J4" H 3542 6685 50  0000 C CNN
+F 1 "Pyro2" H 3542 6776 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 3900 7150 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 3900 7050 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 3900 6950 50  0001 L CNN "Description"
+F 5 "" H 3900 6850 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 3900 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 3900 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 3900 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 3900 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    3250 7050
 	-1   0    0    1   
 $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J5
 U 1 1 6181A58B
-P 5100 5550
-F 0 "J5" H 5392 5185 50  0000 C CNN
-F 1 "Servo2" H 5392 5276 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 5750 5650 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5750 5550 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5750 5450 50  0001 L CNN "Description"
-F 5 "" H 5750 5350 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 5750 5250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5750 5150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 5750 5050 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 5750 4950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5100 5550
+P 5150 6050
+F 0 "J5" H 5442 5685 50  0000 C CNN
+F 1 "Servo2" H 5442 5776 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 5800 6150 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5800 6050 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5800 5950 50  0001 L CNN "Description"
+F 5 "" H 5800 5850 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 5800 5750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5800 5650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 5800 5550 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 5800 5450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 6050
 	-1   0    0    1   
 $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J6
 U 1 1 6181BBBC
-P 5100 6050
-F 0 "J6" H 5392 5685 50  0000 C CNN
-F 1 "Servo1" H 5392 5776 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 5750 6150 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5750 6050 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5750 5950 50  0001 L CNN "Description"
-F 5 "" H 5750 5850 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 5750 5750 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5750 5650 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 5750 5550 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 5750 5450 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5100 6050
+P 5150 6550
+F 0 "J6" H 5442 6185 50  0000 C CNN
+F 1 "Servo1" H 5442 6276 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 5800 6650 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5800 6550 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5800 6450 50  0001 L CNN "Description"
+F 5 "" H 5800 6350 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 5800 6250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5800 6150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 5800 6050 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 5800 5950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 6550
 	-1   0    0    1   
 $EndComp
 $Comp
 L SamacSys_Parts:282834-2 J7
 U 1 1 6181C790
-P 5100 6550
-F 0 "J7" H 5392 6185 50  0000 C CNN
-F 1 "Batt" H 5392 6276 50  0000 C CNN
-F 2 "KRTEK_V2:282834-2_1" H 5750 6650 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5750 6550 50  0001 L CNN
-F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5750 6450 50  0001 L CNN "Description"
-F 5 "" H 5750 6350 50  0001 L CNN "Height"
-F 6 "571-282834-2" H 5750 6250 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5750 6150 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 5750 6050 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-2" H 5750 5950 50  0001 L CNN "Manufacturer_Part_Number"
-	1    5100 6550
+P 5150 7050
+F 0 "J7" H 5442 6685 50  0000 C CNN
+F 1 "Batt" H 5442 6776 50  0000 C CNN
+F 2 "KRTEK_V2:282834-2_1" H 5800 7150 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773458-1_EURO_STYLE_QRG&DocType=Data+Sheet&DocLang=English&PartCntxt=282834-2&DocFormat=pdf" H 5800 7050 50  0001 L CNN
+F 4 "TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip" H 5800 6950 50  0001 L CNN "Description"
+F 5 "" H 5800 6850 50  0001 L CNN "Height"
+F 6 "571-282834-2" H 5800 6750 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D" H 5800 6650 50  0001 L CNN "Mouser Price/Stock"
+F 8 "TE Connectivity" H 5800 6550 50  0001 L CNN "Manufacturer_Name"
+F 9 "282834-2" H 5800 6450 50  0001 L CNN "Manufacturer_Part_Number"
+	1    5150 7050
 	-1   0    0    1   
 $EndComp
-$Comp
-L SamacSys_Parts:282834-5 J1
-U 1 1 6181D2A8
-P 1200 5100
-F 0 "J1" H 1828 4946 50  0000 L CNN
-F 1 "EXTIN" H 1828 4855 50  0000 L CNN
-F 2 "KRTEK_V2:2828345" H 1850 5200 50  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf%7F282834-5" H 1850 5100 50  0001 L CNN
-F 4 "Conn Eurostyle Block HDR 5 POS 2.54mm Solder ST Thru-Hole 10A/Contact Carton" H 1850 5000 50  0001 L CNN "Description"
-F 5 "10.3" H 1850 4900 50  0001 L CNN "Height"
-F 6 "571-282834-5" H 1850 4800 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-5?qs=A%252Bip%252BNCYi6PY1Kyrkp4b4w%3D%3D" H 1850 4700 50  0001 L CNN "Mouser Price/Stock"
-F 8 "TE Connectivity" H 1850 4600 50  0001 L CNN "Manufacturer_Name"
-F 9 "282834-5" H 1850 4500 50  0001 L CNN "Manufacturer_Part_Number"
-	1    1200 5100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	5100 6550 5100 6600
+	5150 7050 5150 7100
 Wire Wire Line
-	5150 6450 5100 6450
-$Comp
-L EXTENSION:505567-0571 J8
-U 1 1 61909209
-P -850 4900
-F 0 "J8" H -450 5165 50  0000 C CNN
-F 1 "EXTIN" H -450 5074 50  0000 C CNN
-F 2 "EXTENSION:5055670571" H -200 5000 50  0001 L CNN
-F 3 "https://www.molex.com/pdm_docs/sd/5055670571_sd.pdf" H -200 4900 50  0001 L CNN
-F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 5 Way, 1 Row, Right Angle PCB Header, Surface Mount" H -200 4800 50  0001 L CNN "Description"
-F 5 "3" H -200 4700 50  0001 L CNN "Height"
-F 6 "538-505567-0571" H -200 4600 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0571?qs=gt1LBUVyoHnJxHrzoS78pw%3D%3D" H -200 4500 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H -200 4400 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0571" H -200 4300 50  0001 L CNN "Manufacturer_Part_Number"
-	1    -850 4900
-	1    0    0    -1  
-$EndComp
-Text GLabel -900 4900 0    50   Input ~ 0
-PYRO1IN
-Text GLabel -900 5000 0    50   Input ~ 0
-PYRO2IN
-Text GLabel -900 5100 0    50   Input ~ 0
-BUZZ1IN
-Text GLabel -900 5200 0    50   Input ~ 0
-BUZZ2IN
-Text GLabel -900 5300 0    50   Input ~ 0
-GNDIN
-Wire Wire Line
-	-900 5300 -850 5300
-Wire Wire Line
-	-900 5200 -850 5200
-Wire Wire Line
-	-900 5100 -850 5100
-Wire Wire Line
-	-900 5000 -850 5000
-Wire Wire Line
-	-900 4900 -850 4900
+	5200 6950 5150 6950
 Text Notes 4850 2250 0    50   ~ 0
 LEDs debug
 Text Notes 1350 4050 0    50   ~ 0
 MOSFETs for pyro + detection
 Text Notes 3650 3800 0    50   ~ 0
 Fuses for pyro channel
-Text Notes 2850 6900 0    50   ~ 0
+Text Notes 2900 7400 0    50   ~ 0
 Input and Output connector
 Text Notes 9000 6100 0    50   ~ 0
 Voltage regulator for PWM
@@ -1277,49 +1186,54 @@ Text Notes 6900 4150 0    50   ~ 0
 Optocoupler
 Text Notes 9050 2250 0    50   ~ 0
 Ampli OP for pyro detection
-Text GLabel 2700 4750 0    50   Input ~ 0
+Text GLabel 2750 5250 0    50   Input ~ 0
 PYRO1IN
-Text GLabel 2700 4850 0    50   Input ~ 0
+Text GLabel 2750 5350 0    50   Input ~ 0
 PYRO2IN
-Text GLabel 2700 4950 0    50   Input ~ 0
+Text GLabel 2750 5450 0    50   Input ~ 0
 PDECT1IN
-Text GLabel 2700 5050 0    50   Input ~ 0
+Text GLabel 2750 5550 0    50   Input ~ 0
 PDECT2IN
-Text GLabel 2700 5150 0    50   Input ~ 0
+Text GLabel 2750 5650 0    50   Input ~ 0
 GNDIN
 Wire Wire Line
-	2700 5150 2750 5150
+	2750 5650 2800 5650
 Wire Wire Line
-	2700 5050 2750 5050
+	2750 5550 2800 5550
 Wire Wire Line
-	2700 4950 2750 4950
+	2750 5450 2800 5450
 Wire Wire Line
-	2700 4850 2750 4850
+	2750 5350 2800 5350
 Wire Wire Line
-	2700 4750 2750 4750
+	2750 5250 2800 5250
 $Comp
 L EXTENSION:505567-0671 J9
 U 1 1 61BAC7D6
-P 2750 4750
-F 0 "J9" H 3200 5015 50  0000 C CNN
-F 1 "505567-0671" H 3200 4924 50  0000 C CNN
-F 2 "EXTENSION:5055670671" H 3500 4850 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" H 3500 4750 50  0001 L CNN
-F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 3500 4650 50  0001 L CNN "Description"
-F 5 "4.2" H 3500 4550 50  0001 L CNN "Height"
-F 6 "538-505567-0671" H 3500 4450 50  0001 L CNN "Mouser Part Number"
-F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" H 3500 4350 50  0001 L CNN "Mouser Price/Stock"
-F 8 "Molex" H 3500 4250 50  0001 L CNN "Manufacturer_Name"
-F 9 "505567-0671" H 3500 4150 50  0001 L CNN "Manufacturer_Part_Number"
-	1    2750 4750
+P 2800 5250
+F 0 "J9" H 3250 5515 50  0000 C CNN
+F 1 "EXTIN" H 3250 5424 50  0000 C CNN
+F 2 "EXTENSION:5055670671" H 3550 5350 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/505567-0671.pdf" H 3550 5250 50  0001 L CNN
+F 4 "Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount" H 3550 5150 50  0001 L CNN "Description"
+F 5 "4.2" H 3550 5050 50  0001 L CNN "Height"
+F 6 "538-505567-0671" H 3550 4950 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D" H 3550 4850 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Molex" H 3550 4750 50  0001 L CNN "Manufacturer_Name"
+F 9 "505567-0671" H 3550 4650 50  0001 L CNN "Manufacturer_Part_Number"
+	1    2800 5250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 5250 0    50   Input ~ 0
+Text GLabel 2750 5750 0    50   Input ~ 0
 3V3IN
 Wire Wire Line
-	2700 5250 2750 5250
+	2750 5750 2800 5750
 Text GLabel 7750 3700 2    50   Input ~ 0
 3V3IN
 Text GLabel 7750 3800 2    50   Input ~ 0
 3V3IN
+NoConn ~ 10100 4750
+Text GLabel 8350 4950 0    50   Input ~ 0
+VINSERVO2
+Wire Wire Line
+	8350 4950 8800 4950
 $EndSCHEMATC
