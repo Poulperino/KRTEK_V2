@@ -92,27 +92,19 @@ U 1 1 61AA19B4
 P 5700 4150
 F 0 "S1" H 5675 4265 50  0000 C CNN
 F 1 "Socket" H 5675 4174 50  0000 C CNN
-F 2 "Socket:DIP_Socket-20_W4.3_W5.08_W7.62_W10.16_W10.9_3M_220-3342-00-0602J" H 5700 4150 50  0001 C CNN
+F 2 "hostboard:SOCKET" H 5700 4150 50  0001 C CNN
 F 3 "" H 5700 4150 50  0001 C CNN
 	1    5700 4150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6300 4300 2    50   Input ~ 0
+Text GLabel 6300 3800 2    50   Input ~ 0
 HTX
-Wire Wire Line
-	6300 4300 6250 4300
-Text GLabel 6300 4400 2    50   Input ~ 0
+Text GLabel 6300 3900 2    50   Input ~ 0
 HRX
-Wire Wire Line
-	6300 4400 6250 4400
-Text GLabel 6300 4500 2    50   Input ~ 0
+Text GLabel 6300 4000 2    50   Input ~ 0
 HPYRO1
-Wire Wire Line
-	6300 4500 6250 4500
-Text GLabel 6300 4600 2    50   Input ~ 0
+Text GLabel 6300 4100 2    50   Input ~ 0
 HPYRO2
-Wire Wire Line
-	6300 4600 6250 4600
 $Comp
 L EXTENSION:505567-0671 J1
 U 1 1 61AA4A98
@@ -147,29 +139,25 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0104
 U 1 1 61AA68F7
-P 5050 5200
-F 0 "#PWR0104" H 5050 4950 50  0001 C CNN
-F 1 "GND" H 5055 5027 50  0000 C CNN
-F 2 "" H 5050 5200 50  0001 C CNN
-F 3 "" H 5050 5200 50  0001 C CNN
-	1    5050 5200
+P 4900 4500
+F 0 "#PWR0104" H 4900 4250 50  0001 C CNN
+F 1 "GND" H 4905 4327 50  0000 C CNN
+F 2 "" H 4900 4500 50  0001 C CNN
+F 3 "" H 4900 4500 50  0001 C CNN
+	1    4900 4500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5050 5200 5100 5200
 $Comp
 L power:GND #PWR0105
 U 1 1 61AA7946
-P 6300 5200
-F 0 "#PWR0105" H 6300 4950 50  0001 C CNN
-F 1 "GND" H 6305 5027 50  0000 C CNN
-F 2 "" H 6300 5200 50  0001 C CNN
-F 3 "" H 6300 5200 50  0001 C CNN
-	1    6300 5200
+P 6450 4500
+F 0 "#PWR0105" H 6450 4250 50  0001 C CNN
+F 1 "GND" H 6455 4327 50  0000 C CNN
+F 2 "" H 6450 4500 50  0001 C CNN
+F 3 "" H 6450 4500 50  0001 C CNN
+	1    6450 4500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6300 5200 6250 5200
 $Comp
 L power:GND #PWR0106
 U 1 1 61AA854D
@@ -181,26 +169,156 @@ F 3 "" H 6400 3150 50  0001 C CNN
 	1    6400 3150
 	0    1    1    0   
 $EndComp
-Text GLabel 6300 4700 2    50   Input ~ 0
+Text GLabel 6300 4200 2    50   Input ~ 0
 HFREE
-Wire Wire Line
-	6300 4700 6250 4700
 Text GLabel 6700 3050 0    50   Input ~ 0
 HFREE
 Wire Wire Line
 	6700 3050 6750 3050
-Text GLabel 6300 5100 2    50   Input ~ 0
+Text GLabel 6300 4400 2    50   Input ~ 0
 3V3
-Wire Wire Line
-	6300 5100 6250 5100
-Text GLabel 5050 5100 0    50   Input ~ 0
+Text GLabel 5050 4400 0    50   Input ~ 0
 3V3
-Wire Wire Line
-	5050 5100 5100 5100
 Wire Wire Line
 	6700 3350 6750 3350
 Wire Wire Line
 	6400 3150 6750 3150
 Wire Wire Line
 	3100 2900 3150 2900
+Wire Wire Line
+	6300 3800 6250 3800
+Wire Wire Line
+	6300 3900 6250 3900
+Wire Wire Line
+	6300 4000 6250 4000
+Wire Wire Line
+	6300 4100 6250 4100
+Wire Wire Line
+	6300 4200 6250 4200
+Wire Wire Line
+	4900 4500 5100 4500
+Wire Wire Line
+	5050 4400 5100 4400
+Wire Wire Line
+	6450 4500 6250 4500
+Text GLabel 3100 3100 0    50   Input ~ 0
+BFREEOUT1
+Text GLabel 3100 3200 0    50   Input ~ 0
+BFREEOUT2
+Wire Wire Line
+	3100 3100 3150 3100
+Wire Wire Line
+	3100 3200 3150 3200
+Text GLabel 3900 3100 2    50   Input ~ 0
+BFREEIN1
+Text GLabel 3900 3200 2    50   Input ~ 0
+BFREEIN2
+Wire Wire Line
+	3900 3100 3850 3100
+Wire Wire Line
+	3900 3200 3850 3200
+$Comp
+L CLIP_BOARD:1x2_header J2
+U 1 1 619CFC50
+P 3650 4750
+F 0 "J2" H 3778 4801 50  0000 L CNN
+F 1 "1x2_header" H 3778 4710 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3650 4750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 4700 0    50   Input ~ 0
+BFREEOUT1
+Text GLabel 3400 4800 0    50   Input ~ 0
+BFREEOUT2
+Wire Wire Line
+	3400 4800 3450 4800
+Wire Wire Line
+	3400 4700 3450 4700
+Text GLabel 6300 4300 2    50   Input ~ 0
+BFREEIN1
+Wire Wire Line
+	6300 4300 6250 4300
+Text GLabel 5050 4300 0    50   Input ~ 0
+BFREEIN2
+Wire Wire Line
+	5050 4300 5100 4300
+Text GLabel 5050 3800 0    50   Input ~ 0
+SCLFREE
+Text GLabel 5050 3900 0    50   Input ~ 0
+SDAFREE
+Text GLabel 5050 4000 0    50   Input ~ 0
+SCKFREE
+Text GLabel 5050 4100 0    50   Input ~ 0
+MISOFREE
+Text GLabel 5050 4200 0    50   Input ~ 0
+MOSIFREE
+Wire Wire Line
+	5050 4200 5100 4200
+Wire Wire Line
+	5050 4100 5100 4100
+Wire Wire Line
+	5050 4000 5100 4000
+Wire Wire Line
+	5050 3900 5100 3900
+Wire Wire Line
+	5050 3800 5100 3800
+$Comp
+L CLIP_BOARD:1x5_header J3
+U 1 1 619D6353
+P 3650 5350
+F 0 "J3" H 3778 5401 50  0000 L CNN
+F 1 "1x5_header" H 3778 5310 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x05_P2.00mm_Vertical" H 3650 5500 50  0001 C CNN
+F 3 "" H 3650 5500 50  0001 C CNN
+	1    3650 5350
+	1    0    0    -1  
+$EndComp
+Text GLabel 3400 5150 0    50   Input ~ 0
+SCLFREE
+Text GLabel 3400 5250 0    50   Input ~ 0
+SDAFREE
+Text GLabel 3400 5350 0    50   Input ~ 0
+SCKFREE
+Text GLabel 3400 5450 0    50   Input ~ 0
+MISOFREE
+Text GLabel 3400 5550 0    50   Input ~ 0
+MOSIFREE
+Wire Wire Line
+	3400 5550 3450 5550
+Wire Wire Line
+	3400 5450 3450 5450
+Wire Wire Line
+	3400 5350 3450 5350
+Wire Wire Line
+	3400 5250 3450 5250
+Wire Wire Line
+	3400 5150 3450 5150
+$Comp
+L power:GND #PWR0107
+U 1 1 619DFB19
+P 3900 2250
+F 0 "#PWR0107" H 3900 2000 50  0001 C CNN
+F 1 "GND" H 3905 2077 50  0000 C CNN
+F 2 "" H 3900 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3900 2250 3900 2300
+Wire Wire Line
+	3900 2600 3900 2700
+$Comp
+L Device:C C1
+U 1 1 619DF146
+P 3900 2450
+F 0 "C1" H 4015 2496 50  0000 L CNN
+F 1 "0.1uF" H 4015 2405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 2300 50  0001 C CNN
+F 3 "~" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

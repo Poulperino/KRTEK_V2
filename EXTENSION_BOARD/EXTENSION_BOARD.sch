@@ -342,9 +342,9 @@ Wire Wire Line
 	4250 1450 4250 1500
 Connection ~ 4250 1450
 Text GLabel 6450 1200 2    50   Input ~ 0
-Baro_SDA
+Accel_SDA
 Text GLabel 5900 1050 1    50   Input ~ 0
-Baro_SCLK
+Accel_SCL
 $Comp
 L EXTENSION:COM-15809 U1
 U 1 1 6183C896
@@ -749,14 +749,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 1300 5850 1400
 Connection ~ 5850 1400
-Text GLabel 1050 3250 0    50   Input ~ 0
-Baro_SDA
-Wire Wire Line
-	1050 3250 1100 3250
-Text GLabel 1050 3150 0    50   Input ~ 0
-Baro_SCLK
-Wire Wire Line
-	1050 3150 1100 3150
 $Comp
 L power:GND #PWR014
 U 1 1 619BB011
@@ -1374,70 +1366,10 @@ Wire Wire Line
 	10200 4850 10250 4850
 Wire Wire Line
 	10200 5350 10250 5350
-$Comp
-L Device:R R6
-U 1 1 619C990D
-P 3650 6300
-F 0 "R6" V 3443 6300 50  0000 C CNN
-F 1 "3.3K" V 3534 6300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 6300 50  0001 C CNN
-F 3 "~" H 3650 6300 50  0001 C CNN
-	1    3650 6300
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3650 6150 3650 6050
-Wire Wire Line
-	3650 6050 3600 6050
-Wire Wire Line
-	3650 6050 3900 6050
-Connection ~ 3650 6050
-$Comp
-L power:+3.3V #PWR0103
-U 1 1 619DF704
-P 3650 6500
-F 0 "#PWR0103" H 3650 6350 50  0001 C CNN
-F 1 "+3.3V" V 3665 6628 50  0000 L CNN
-F 2 "" H 3650 6500 50  0001 C CNN
-F 3 "" H 3650 6500 50  0001 C CNN
-	1    3650 6500
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3650 6500 3650 6450
-$Comp
-L Device:R R12
-U 1 1 619EA19E
-P 4400 7400
-F 0 "R12" V 4193 7400 50  0000 C CNN
-F 1 "3.3K" V 4284 7400 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4330 7400 50  0001 C CNN
-F 3 "~" H 4400 7400 50  0001 C CNN
-	1    4400 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4550 7400 4600 7400
 Wire Wire Line
 	4600 7150 4600 7200
 Wire Wire Line
 	4600 7200 4400 7200
-Connection ~ 4600 7200
-Wire Wire Line
-	4600 7200 4600 7400
-$Comp
-L power:+3.3V #PWR0104
-U 1 1 619FF8A5
-P 4200 7400
-F 0 "#PWR0104" H 4200 7250 50  0001 C CNN
-F 1 "+3.3V" V 4215 7528 50  0000 L CNN
-F 2 "" H 4200 7400 50  0001 C CNN
-F 3 "" H 4200 7400 50  0001 C CNN
-	1    4200 7400
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 7400 4250 7400
 $Comp
 L Simulation_SPICE:DIODE D10
 U 1 1 61A0E772
@@ -1457,4 +1389,6 @@ Connection ~ 4850 3350
 Connection ~ 4850 3050
 Wire Wire Line
 	4850 3050 5050 3050
+Wire Wire Line
+	3600 6050 3900 6050
 $EndSCHEMATC
