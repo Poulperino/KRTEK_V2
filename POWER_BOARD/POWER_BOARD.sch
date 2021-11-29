@@ -1186,9 +1186,9 @@ Text Notes 6900 4150 0    50   ~ 0
 Optocoupler
 Text Notes 9050 2250 0    50   ~ 0
 Ampli OP for pyro detection
-Text GLabel 2750 5250 0    50   Input ~ 0
-PYRO1IN
 Text GLabel 2750 5350 0    50   Input ~ 0
+PYRO1IN
+Text GLabel 2750 5250 0    50   Input ~ 0
 PYRO2IN
 Text GLabel 2750 5450 0    50   Input ~ 0
 PDECT1IN

@@ -18,6 +18,8 @@
 #include <Wire.h>
 #include <baro_MS5611.h>
 #include <accel_H3LIS331DL.h>
+#include "UART_Protocol.h"
+#include "Serial_Comm.h"
 /********************************************************************************/ 
 //VARIABLE DECLARATION
 /********************************************************************************/ 
@@ -74,6 +76,7 @@ Baro Baro;
 //Accel initialization
 Accel Accel;
 
+
 /********************************************************************************/ 
 //SETUP
 /********************************************************************************/ 
@@ -100,6 +103,8 @@ void setup() {
 
   //Initialize Serial communication (for computer)
   Serial.begin(9600);
+  //Initialize Serial communication (for Iacoboard)
+  HWSERIAL.begin(9600);
 
   //Baro setup
   Baro.Setup();
