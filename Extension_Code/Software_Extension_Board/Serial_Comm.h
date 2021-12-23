@@ -6,7 +6,7 @@
 */
 
 #ifndef Serial_Comm_h
-#define UART_Protocol_h
+#define Serial_Comm_h
 
 #include "Arduino.h"
  

@@ -20,6 +20,8 @@
 #include <accel_H3LIS331DL.h>
 #include "UART_Protocol.h"
 #include "Serial_Comm.h"
+#include "UART_Protocol_Master.h"
+#include "UART_Protocol_Slave.h"
 /********************************************************************************/ 
 //VARIABLE DECLARATION
 /********************************************************************************/ 
@@ -114,6 +116,7 @@ void setup() {
 }
 
 void loop() {
+  /*
   //just a buzzer test
   BuzzBIP(); //beeps 100ms every sec
 
@@ -122,6 +125,9 @@ void loop() {
   yAcc = Accel.getAccData(2); //2 for the y acceleration
   zAcc = Accel.getAccData(4); //4 for the z acceleration
   delay(100);
+  */
+
+  Serial.println("This is written in the terminal");
 
 }
 
