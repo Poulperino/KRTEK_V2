@@ -175,8 +175,6 @@ Text GLabel 6700 3050 0    50   Input ~ 0
 HFREE
 Wire Wire Line
 	6700 3050 6750 3050
-Text GLabel 6300 4400 2    50   Input ~ 0
-3V3
 Text GLabel 5050 4400 0    50   Input ~ 0
 3V3
 Wire Wire Line

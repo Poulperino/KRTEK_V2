@@ -4,11 +4,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "The Power Board"
+Date "2022-01-02"
+Rev "R06"
+Comp "EPFL Rocket Team"
+Comment1 "EPFL Rocket Team all rights reserved"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1186,9 +1186,9 @@ Text Notes 6900 4150 0    50   ~ 0
 Optocoupler
 Text Notes 9050 2250 0    50   ~ 0
 Ampli OP for pyro detection
-Text GLabel 2750 5250 0    50   Input ~ 0
-PYRO1IN
 Text GLabel 2750 5350 0    50   Input ~ 0
+PYRO1IN
+Text GLabel 2750 5250 0    50   Input ~ 0
 PYRO2IN
 Text GLabel 2750 5450 0    50   Input ~ 0
 PDECT1IN

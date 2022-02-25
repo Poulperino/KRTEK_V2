@@ -344,7 +344,7 @@ Connection ~ 4250 1450
 Text GLabel 6450 1200 2    50   Input ~ 0
 Accel_SDA
 Text GLabel 5900 1050 1    50   Input ~ 0
-Accel_SCLK
+Accel_SCL
 $Comp
 L EXTENSION:COM-15809 U1
 U 1 1 6183C896

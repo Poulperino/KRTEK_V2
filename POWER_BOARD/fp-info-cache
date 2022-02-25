@@ -1,4 +1,4 @@
-20064803698330698
+20072988749939988
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -55279,12 +55279,33 @@ AS358AP-PDIP-8
 8
 8
 KRTEK_V2
+CST931AP
+CST-931AP-1
+Loudspeaker or Buzzer
+0
+2
+2
+KRTEK_V2
 DIP762W60P254L2030H430Q16N
 DIP-16_1
 Integrated Circuit
 0
 16
 16
+KRTEK_V2
+KRTEK_CLIPBOARD
+
+
+0
+0
+0
+KRTEK_V2
+KRTEK_Extension
+
+
+0
+0
+0
 KRTEK_V2
 KRTEK_LOGO
 
@@ -55355,6 +55376,20 @@ SOCKET
 0
 20
 20
+KRTEK_V2
+SOIC-8_W5.6mm
+
+
+0
+8
+8
+KRTEK_V2
+SOIC127P1030X265-24N
+DW (R-PDSO-G24)
+Integrated Circuit
+0
+24
+24
 KRTEK_V2
 TB003500P04BE
 TB003-500-P04BE
