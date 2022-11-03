@@ -1,4 +1,4 @@
-update=05.01.2022 09:18:52
+update=07.05.2022 10:10:45
 version=1
 last_client=kicad
 [general]
@@ -242,7 +242,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [schematic_editor]
 version=1
-PageLayoutDescrFile=
+PageLayoutDescrFile=2022_AV_TD_XXX_KiCAD_A4_TEMPLATE_R01.kicad_wks
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65

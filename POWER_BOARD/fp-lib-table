@@ -1,4 +1,5 @@
 (fp_lib_table
-  (lib (name KRTEK_V2)(type KiCad)(uri ${KIPRJMOD}/KRTEK_V2.pretty)(options "")(descr ""))
-  (lib (name EXTENSION)(type KiCad)(uri C:/Users/willi/Documents/GitHub/KRTEK_V2/EXTENSION_BOARD/EXTENSION.pretty)(options "")(descr ""))
+  (lib (name "KRTEK_V2")(type "KiCad")(uri "${KIPRJMOD}/KRTEK_V2.pretty")(options "")(descr ""))
+  (lib (name "EXTENSION")(type "KiCad")(uri "C:/Users/willi/Documents/GitHub/KRTEK_V2/EXTENSION_BOARD/EXTENSION.pretty")(options "")(descr ""))
+  (lib (name "PLP2")(type "KiCad")(uri "C:/Users/willi/Desktop/PLP2/PCBs/Library/PLP2.pretty")(options "")(descr ""))
 )
