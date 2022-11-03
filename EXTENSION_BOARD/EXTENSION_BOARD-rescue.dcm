@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MS561101BA03-50-SamacSys_Parts
+F http://www.te.com/usa-en/search.html?q=ms5611&source=header
+$ENDCMP
+#
+$CMP PS1240P02CT3-SamacSys_Parts
+F https://product.tdk.com/system/files/dam/doc/product/sw_piezo/sw_piezo/piezo-buzzer/catalog/piezoelectronic_buzzer_ps_en.pdf
+$ENDCMP
+#
+#End Doc Library

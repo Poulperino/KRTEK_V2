@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\willi\Documents\GitHub\KRTEK_V2\POWER_BOARD\POWER_BOARD.kicad_sch</source>
+    <date>23.05.2022 09:00:07</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>The Power Board</title>
+        <company>EPFL Rocket Team</company>
+        <rev>R06</rev>
+        <date>2022-01-02</date>
+        <source>POWER_BOARD.kicad_sch</source>
+        <comment number="1" value="EPFL Rocket Team all rights reserved"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>RED</value>
+      <footprint>KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617961e0</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>YELLOW</value>
+      <footprint>KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006179e3d0</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>YELLOW</value>
+      <footprint>KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a26da</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>GREEN</value>
+      <footprint>KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a4e03</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>GREEN</value>
+      <footprint>KRTEK_V2:LED_2-SMD_No_Lead_1.7x0.8mm</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a9a0e</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>ILQ30</value>
+      <footprint>DIP762W60P254L2030H430Q16N</footprint>
+      <datasheet>http://www.vishay.com/docs/83621/ild55.pdf</datasheet>
+      <fields>
+        <field name="Description">Vishay ILQ30 Optocoupler</field>
+        <field name="Height">4.3</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">ILQ30</field>
+        <field name="Mouser Part Number">782-ILQ30</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/ILQ30?qs=xCMk%252BIHWTZN5%2FBPVf3MDbQ%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="ILQ30" description="Vishay ILQ30 Optocoupler"/>
+      <property name="Description" value="Vishay ILQ30 Optocoupler"/>
+      <property name="Height" value="4.3"/>
+      <property name="Mouser Part Number" value="782-ILQ30"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/ILQ30?qs=xCMk%252BIHWTZN5%2FBPVf3MDbQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="Vishay"/>
+      <property name="Manufacturer_Part_Number" value="ILQ30"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ab743</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>ARM</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006180c32e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Pyro1</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061818052</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Pyro2</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061819935</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Servo2</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006181a58b</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Servo1</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006181bbbc</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Batt</value>
+      <footprint>282834-2_1</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</datasheet>
+      <fields>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="282834-2" description="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Description" value="TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip"/>
+      <property name="Height" value=""/>
+      <property name="Mouser Part Number" value="571-282834-2"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D"/>
+      <property name="Manufacturer_Name" value="TE Connectivity"/>
+      <property name="Manufacturer_Part_Number" value="282834-2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006181c790</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>EXTIN</value>
+      <footprint>EXTENSION:5055670671</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/505567-0671.pdf</datasheet>
+      <fields>
+        <field name="Description">Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount</field>
+        <field name="Height">4.2</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">505567-0671</field>
+        <field name="Mouser Part Number">538-505567-0671</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D</field>
+      </fields>
+      <libsource lib="EXTENSION" part="505567-0671" description="Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount"/>
+      <property name="Description" value="Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount"/>
+      <property name="Height" value="4.2"/>
+      <property name="Mouser Part Number" value="538-505567-0671"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D"/>
+      <property name="Manufacturer_Name" value="Molex"/>
+      <property name="Manufacturer_Part_Number" value="505567-0671"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061bac7d6</tstamps>
+    </comp>
+    <comp ref="PS1">
+      <value>RPM5.0-6.0</value>
+      <footprint>RPM5060</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/RPM5.0-6.0.pdf</datasheet>
+      <fields>
+        <field name="Description">RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable</field>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">RPM5.0-6.0</field>
+        <field name="Mouser Part Number">919-RPM5.0-6.0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/RPM50-60?qs=qSfuJ%252Bfl%2Fd6RhQVkKT5WeQ%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="RPM5.0-6.0" description="RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable"/>
+      <property name="Description" value="RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable"/>
+      <property name="Height" value="4"/>
+      <property name="Mouser Part Number" value="919-RPM5.0-6.0"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/RECOM-Power/RPM50-60?qs=qSfuJ%252Bfl%2Fd6RhQVkKT5WeQ%3D%3D"/>
+      <property name="Manufacturer_Name" value="RECOM Power"/>
+      <property name="Manufacturer_Part_Number" value="RPM5.0-6.0"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618806f9</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRL40B212</value>
+      <footprint>TO254P483X1016X1994-3P</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRL40B212</field>
+        <field name="Mouser Part Number">942-IRL40B212</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRL40B212?qs=Spy%2F4WkLrxWSZeTg%2Flcqjw%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="IRL40B212" description="MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl"/>
+      <property name="Description" value="MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl"/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="942-IRL40B212"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRL40B212?qs=Spy%2F4WkLrxWSZeTg%2Flcqjw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="IRL40B212"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c7795</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>IRL40B212</value>
+      <footprint>TO254P483X1016X1994-3P</footprint>
+      <datasheet>https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d</datasheet>
+      <fields>
+        <field name="Description">MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl</field>
+        <field name="Height">4.83</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRL40B212</field>
+        <field name="Mouser Part Number">942-IRL40B212</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRL40B212?qs=Spy%2F4WkLrxWSZeTg%2Flcqjw%3D%3D</field>
+      </fields>
+      <libsource lib="KRTEK_V2" part="IRL40B212" description="MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl"/>
+      <property name="Description" value="MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl"/>
+      <property name="Height" value="4.83"/>
+      <property name="Mouser Part Number" value="942-IRL40B212"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRL40B212?qs=Spy%2F4WkLrxWSZeTg%2Flcqjw%3D%3D"/>
+      <property name="Manufacturer_Name" value="Infineon"/>
+      <property name="Manufacturer_Part_Number" value="IRL40B212"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617c82a6</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>740</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006179427b</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061781ad3</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>510</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ed27e</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061782c1b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ed284</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>740</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006179594d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>740</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a26d2</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>93k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617865fd</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617869dc</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>93k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ed28a</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617ed290</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>740</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061795d23</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>740</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a9a06</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a8d2b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a7f17</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061816c14</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006181602b</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>681k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000618e57ab</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>SF-1206HH10M-2</value>
+      <footprint>KRTEK_V2:SF-1206HH10M-2</footprint>
+      <libsource lib="POWER_BOARD-rescue" part="SF-1206HH10M-2-KRTEK_V2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006198b2d9</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SF-1206HH10M-2</value>
+      <footprint>KRTEK_V2:SF-1206HH10M-2</footprint>
+      <libsource lib="POWER_BOARD-rescue" part="SF-1206HH10M-2-KRTEK_V2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006198c1f2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AS358AP</value>
+      <footprint>KRTEK_V2:AS358AP-PDIP-8</footprint>
+      <libsource lib="POWER_BOARD-rescue" part="AS358AP-KRTEK_V2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="POWER_BOARD.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000617a35d3</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EXTENSION" part="505567-0671">
+      <description>Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/505567-0671.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">505567-0671</field>
+        <field name="Footprint">5055670671</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/505567-0671.pdf</field>
+        <field name="Description">Molex Micro-Lock PLUS 505567, 1.25mm Pitch, 6 Way, 1 Row, Right Angle PCB Header, Surface Mount</field>
+        <field name="Height">4.2</field>
+        <field name="Mouser Part Number">538-505567-0671</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Molex/505567-0671?qs=gt1LBUVyoHmQuimOt9l14w%3D%3D</field>
+        <field name="Manufacturer_Name">Molex</field>
+        <field name="Manufacturer_Part_Number">505567-0671</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="MP1" name="MP1" type="passive"/>
+        <pin num="MP2" name="MP2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KRTEK_V2" part="282834-2">
+      <description>TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">282834-2</field>
+        <field name="Footprint">282834-2_1</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1-1773458-1_EURO_STYLE_QRG&amp;DocType=Data+Sheet&amp;DocLang=English&amp;PartCntxt=282834-2&amp;DocFormat=pdf</field>
+        <field name="Description">TE Connectivity, Buchanan 2.54mm Pitch, 2 Way PCB Terminal Strip</field>
+        <field name="Mouser Part Number">571-282834-2</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TE-Connectivity/282834-2?qs=A%252Bip%252BNCYi6N8cVKuk8xDog%3D%3D</field>
+        <field name="Manufacturer_Name">TE Connectivity</field>
+        <field name="Manufacturer_Part_Number">282834-2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KRTEK_V2" part="ILQ30">
+      <description>Vishay ILQ30 Optocoupler</description>
+      <docs>http://www.vishay.com/docs/83621/ild55.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ILQ30</field>
+        <field name="Footprint">DIP762W60P254L2030H430Q16N</field>
+        <field name="Datasheet">http://www.vishay.com/docs/83621/ild55.pdf</field>
+        <field name="Description">Vishay ILQ30 Optocoupler</field>
+        <field name="Height">4.3</field>
+        <field name="Mouser Part Number">782-ILQ30</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/ILQ30?qs=xCMk%252BIHWTZN5%2FBPVf3MDbQ%3D%3D</field>
+        <field name="Manufacturer_Name">Vishay</field>
+        <field name="Manufacturer_Part_Number">ILQ30</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A_1" type="passive"/>
+        <pin num="2" name="C_1" type="passive"/>
+        <pin num="3" name="C_2" type="passive"/>
+        <pin num="4" name="A_2" type="passive"/>
+        <pin num="5" name="A_3" type="passive"/>
+        <pin num="6" name="C_3" type="passive"/>
+        <pin num="7" name="C_4" type="passive"/>
+        <pin num="8" name="A_4" type="passive"/>
+        <pin num="9" name="E_1" type="passive"/>
+        <pin num="10" name="C_5" type="passive"/>
+        <pin num="11" name="C_6" type="passive"/>
+        <pin num="12" name="E_2" type="passive"/>
+        <pin num="13" name="E_3" type="passive"/>
+        <pin num="14" name="C_7" type="passive"/>
+        <pin num="15" name="C_8" type="passive"/>
+        <pin num="16" name="E_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KRTEK_V2" part="IRL40B212">
+      <description>MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl</description>
+      <docs>https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRL40B212</field>
+        <field name="Footprint">TO254P483X1016X1994-3P</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/Infineon-IRL40S212-DS-v01_00-EN.pdf?fileId=5546d46258fc0bc10158fed0ddc3062d</field>
+        <field name="Description">MOSFET 40V, 195A, 1.9 mOhm 91 nC Qg, Logic Lvl</field>
+        <field name="Height">4.83</field>
+        <field name="Mouser Part Number">942-IRL40B212</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Infineon-IR/IRL40B212?qs=Spy%2F4WkLrxWSZeTg%2Flcqjw%3D%3D</field>
+        <field name="Manufacturer_Name">Infineon</field>
+        <field name="Manufacturer_Part_Number">IRL40B212</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="KRTEK_V2" part="RPM5.0-6.0">
+      <description>RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/RPM5.0-6.0.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">RPM5.0-6.0</field>
+        <field name="Footprint">RPM5060</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/RPM5.0-6.0.pdf</field>
+        <field name="Description">RECOM POWER - RPM5.0-6.0 - Non Isolated POL DC/DC Converter, ITE, 1 Output, 30 W, 5 V, 6 A, Fixed, Adjustable</field>
+        <field name="Height">4</field>
+        <field name="Mouser Part Number">919-RPM5.0-6.0</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/RPM50-60?qs=qSfuJ%252Bfl%2Fd6RhQVkKT5WeQ%3D%3D</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">RPM5.0-6.0</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="VIN_1" type="passive"/>
+        <pin num="A2" name="VIN_2" type="passive"/>
+        <pin num="A3" name="GND_1" type="passive"/>
+        <pin num="A4" name="GND_2" type="passive"/>
+        <pin num="A5" name="VOUT_1" type="passive"/>
+        <pin num="B1" name="GND_3" type="passive"/>
+        <pin num="B2" name="GND_4" type="passive"/>
+        <pin num="B3" name="GND_5" type="passive"/>
+        <pin num="B4" name="GND_6" type="passive"/>
+        <pin num="B5" name="VOUT_2" type="passive"/>
+        <pin num="C1" name="CTRL" type="passive"/>
+        <pin num="C2" name="GND_7" type="passive"/>
+        <pin num="C3" name="GND_8" type="passive"/>
+        <pin num="C4" name="GND_9" type="passive"/>
+        <pin num="C5" name="SENSE" type="passive"/>
+        <pin num="D1" name="PGOOD" type="passive"/>
+        <pin num="D2" name="GND_10" type="passive"/>
+        <pin num="D3" name="GND_11" type="passive"/>
+        <pin num="D4" name="GND_12" type="passive"/>
+        <pin num="D5" name="GND_13" type="passive"/>
+        <pin num="E1" name="SEQ" type="passive"/>
+        <pin num="E2" name="NC" type="no_connect"/>
+        <pin num="E3" name="GND_14" type="passive"/>
+        <pin num="E4" name="GND_15" type="passive"/>
+        <pin num="E5" name="TRIM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER_BOARD-rescue" part="AS358AP-KRTEK_V2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AS358AP-KRTEK_V2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUTPUT_1" type="output"/>
+        <pin num="2" name="INPUT_1-" type="input"/>
+        <pin num="3" name="INPUT_1+" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+        <pin num="5" name="INPUT_2+" type="input"/>
+        <pin num="6" name="INPUT_2-" type="input"/>
+        <pin num="7" name="OUTPUT_2" type="output"/>
+        <pin num="8" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="POWER_BOARD-rescue" part="SF-1206HH10M-2-KRTEK_V2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SF-1206HH10M-2-KRTEK_V2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="OUT" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="EXTENSION">
+      <uri>C:/Users/willi/Documents/GitHub/KRTEK_V2/EXTENSION_BOARD/EXTENSION.lib</uri>
+    </library>
+    <library logical="KRTEK_V2">
+      <uri>C:\Users\willi\Documents\GitHub\KRTEK_V2\POWER_BOARD/KRTEK_V2.lib</uri>
+    </library>
+    <library logical="POWER_BOARD-rescue">
+      <uri>C:\Users\willi\Documents\GitHub\KRTEK_V2\POWER_BOARD/POWER_BOARD-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="3V3IN">
+      <node ref="IC1" pin="10" pinfunction="C_5" pintype="passive"/>
+      <node ref="IC1" pin="11" pinfunction="C_6" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="2" name="AMP1">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="INPUT_1+" pintype="input"/>
+    </net>
+    <net code="3" name="AMP2">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="INPUT_2+" pintype="input"/>
+    </net>
+    <net code="4" name="BUZZ1">
+      <node ref="IC1" pin="5" pinfunction="A_3" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="OUTPUT_1" pintype="output"/>
+    </net>
+    <net code="5" name="BUZZ2">
+      <node ref="IC1" pin="8" pinfunction="A_4" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="OUTPUT_2" pintype="output"/>
+    </net>
+    <net code="6" name="FUSE1">
+      <node ref="Q1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="7" name="FUSE2">
+      <node ref="Q2" pin="3" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="8" name="GND">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="C_3" pintype="passive"/>
+      <node ref="IC1" pin="7" pinfunction="C_4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="PS1" pin="A3" pinfunction="GND_1" pintype="passive"/>
+      <node ref="PS1" pin="A4" pinfunction="GND_2" pintype="passive"/>
+      <node ref="PS1" pin="B1" pinfunction="GND_3" pintype="passive"/>
+      <node ref="PS1" pin="B4" pinfunction="GND_6" pintype="passive"/>
+      <node ref="PS1" pin="C2" pinfunction="GND_7" pintype="passive"/>
+      <node ref="PS1" pin="C3" pinfunction="GND_8" pintype="passive"/>
+      <node ref="PS1" pin="C4" pinfunction="GND_9" pintype="passive"/>
+      <node ref="PS1" pin="D2" pinfunction="GND_10" pintype="passive"/>
+      <node ref="PS1" pin="D5" pinfunction="GND_13" pintype="passive"/>
+      <node ref="PS1" pin="E3" pinfunction="GND_14" pintype="passive"/>
+      <node ref="PS1" pin="E4" pinfunction="GND_15" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U2" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="9" name="GNDIN">
+      <node ref="IC1" pin="2" pinfunction="C_1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="C_2" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="5" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(PS1-PadE5)">
+      <node ref="PS1" pin="E5" pinfunction="TRIM" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="INPUT_1-" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R17-Pad1)">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="INPUT_2-" pintype="input"/>
+    </net>
+    <net code="20" name="OPTO1">
+      <node ref="IC1" pin="15" pinfunction="C_8" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="OPTO2">
+      <node ref="IC1" pin="14" pinfunction="C_7" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="PDECT1IN">
+      <node ref="IC1" pin="9" pinfunction="E_1" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="23" name="PDECT2IN">
+      <node ref="IC1" pin="12" pinfunction="E_2" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="24" name="PYRO1">
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="PYRO1IN">
+      <node ref="IC1" pin="1" pinfunction="A_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="PYRO2">
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="PYRO2IN">
+      <node ref="IC1" pin="4" pinfunction="A_2" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="28" name="PYROTERMIN">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="VCC">
+      <node ref="IC1" pin="13" pinfunction="E_3" pintype="passive"/>
+      <node ref="IC1" pin="16" pinfunction="E_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PS1" pin="A1" pinfunction="VIN_1" pintype="passive"/>
+      <node ref="PS1" pin="A2" pinfunction="VIN_2" pintype="passive"/>
+      <node ref="PS1" pin="C1" pinfunction="CTRL" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="30" name="VINSERVO2">
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="PS1" pin="A5" pinfunction="VOUT_1" pintype="passive"/>
+      <node ref="PS1" pin="B5" pinfunction="VOUT_2" pintype="passive"/>
+      <node ref="PS1" pin="C5" pinfunction="SENSE" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J9-PadMP1)">
+      <node ref="J9" pin="MP1" pinfunction="MP1" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(J9-PadMP2)">
+      <node ref="J9" pin="MP2" pinfunction="MP2" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(PS1-PadB2)">
+      <node ref="PS1" pin="B2" pinfunction="GND_4" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(PS1-PadB3)">
+      <node ref="PS1" pin="B3" pinfunction="GND_5" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(PS1-PadD1)">
+      <node ref="PS1" pin="D1" pinfunction="PGOOD" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(PS1-PadD3)">
+      <node ref="PS1" pin="D3" pinfunction="GND_11" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(PS1-PadD4)">
+      <node ref="PS1" pin="D4" pinfunction="GND_12" pintype="passive"/>
+    </net>
+    <net code="38" name="unconnected-(PS1-PadE1)">
+      <node ref="PS1" pin="E1" pinfunction="SEQ" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(PS1-PadE2)">
+      <node ref="PS1" pin="E2" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
